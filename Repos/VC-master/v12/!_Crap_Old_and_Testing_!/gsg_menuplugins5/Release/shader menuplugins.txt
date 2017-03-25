@@ -1,0 +1,20 @@
+
+
+
+load as shader dll, engine loads this before lua_shared
+
+start a thread, loadlibrary lua_shard then loop trying to get ILuaShared
+
+when got, get interfaces for ICVar, IVEngineClient then exit that thread and start a 2nd one
+
+thread 2 will try to get the ILuaInterface of the menu
+
+when got, exit this thread too and use IVEngineClient to run the cvar to RunString the whatever (can't use ILuaInterface's, crashes)
+
+
+
+
+
+
+
+

@@ -1,0 +1,512 @@
+[15:55] -=[UH]=- Gen. HeX: [HAC100_U126] - Autobanned: BlackAfroMan <josegerdes> (STEAM_0:1:32024708) - Addon=FapHack V=3.00 (Flapadar) [[An aimbot. Rewritten]]
+
+
+New session started on 12.10.2011 at 15:55
+[15:55] BlackAfroMan: look
+[15:56] BlackAfroMan: giveme your bypass the sourcer
+[15:56] -=[UH]=- Gen. HeX: not giving anyone the source or even the dll
+[15:56] BlackAfroMan: why
+[15:56] -=[UH]=- Gen. HeX: i made it, if i give it out it could be VAC banned
+[15:56] -=[UH]=- Gen. HeX: you already have emporium
+[15:57] BlackAfroMan: i dont have emporium
+[15:57] -=[UH]=- Gen. HeX: [HAC100_U126] - BlackAfroMan <josegerdes> (STEAM_0:1:32024708) - VWModule=addons/BypassEmporium.dll
+[15:57] BlackAfroMan: cool this explosion
+[15:57] BlackAfroMan: bit it dont
+[16:00] BlackAfroMan: i was banned
+[16:00] BlackAfroMan: unban me please
+[16:00] -=[UH]=- Gen. HeX: yes, faphack and emporium
+[16:00] -=[UH]=- Gen. HeX: i took a pic, see http://puu.sh/6Tis
+[16:01] BlackAfroMan: unban me please
+[16:02] -=[UH]=- Gen. HeX: remove the cheats and i will
+[16:02] BlackAfroMan: ok
+[16:02] BlackAfroMan: just the dll because
+[16:02] BlackAfroMan: the faphack dont work
+[16:02] -=[UH]=- Gen. HeX: remove faphack from addons, and lua/menu_plugins
+[16:02] -=[UH]=- Gen. HeX: or it will happen again, it's automattic
+[16:03] BlackAfroMan: can i build the server with you
+[16:03] -=[UH]=- Gen. HeX: build *with* me?
+[16:04] BlackAfroMan: yes[]
+[16:04] BlackAfroMan: i
+[16:04] -=[UH]=- Gen. HeX: as in, make stuff?
+[16:04] -=[UH]=- Gen. HeX: like cars/forts?
+[16:10] BlackAfroMan: look
+[16:10] BlackAfroMan: lets build a TTT server
+[16:10] BlackAfroMan: ok
+[16:11] -=[UH]=- Gen. HeX: can you host it?
+[16:25] BlackAfroMan: MAN
+[16:25] -=[UH]=- Gen. HeX: ???
+[16:25] BlackAfroMan: GIVME THE DLL
+[16:25] -=[UH]=- Gen. HeX: /caps
+[16:25] -=[UH]=- Gen. HeX: code your own
+[16:26] BlackAfroMan: please
+[16:34] BlackAfroMan: but
+[16:34] BlackAfroMan: i try i dont know
+[16:48] BlackAfroMan: lets build a TTT server
+
+
+New session started on 12.10.2011 at 16:48
+[16:48] -=[UH]=- Gen. HeX: you mean host one?
+
+
+New session started on 12.10.2011 at 19:52
+[19:52] BlackAfroMan: man
+[19:52] BlackAfroMan: you want build a server with m
+[19:52] BlackAfroMan: me
+
+
+New session started on 12.10.2011 at 19:52
+[19:52] -=[UH]=- Gen. HeX: host a build server?
+[19:52] BlackAfroMan: you play minecraft
+[19:53] BlackAfroMan: no a TTT server
+[19:54] -=[UH]=- Gen. HeX: yes, i have a mc account
+[19:54] BlackAfroMan: i have a server you know java
+[19:55] -=[UH]=- Gen. HeX: nopem only lua and some c++
+[19:56] BlackAfroMan: you have a gmod server let build
+[19:57] BlackAfroMan: a big gameclan that have tttgmod server and a minecraft server
+[19:57] BlackAfroMan: i have group that build protections sistems to
+[19:58] BlackAfroMan: trindadehacker.net.tc we have builded a sistem that protect all fails on your site and the DDos
+[19:58] BlackAfroMan: lets transform your server in TTT
+[19:59] -=[UH]=- Gen. HeX: i don't want it TTT, i want it deathmatch
+[19:59] BlackAfroMan: but ttt have mot players
+[20:00] BlackAfroMan: lets build a bit ttt server
+[20:00] BlackAfroMan: i help you
+[20:00] -=[UH]=- Gen. HeX: i don't have enough bandwidth to host another server
+[20:00] BlackAfroMan: is better let do a vote on the server
+[20:01] BlackAfroMan: but host just one
+[20:01] BlackAfroMan: lets vote on the server ok
+[20:02] BlackAfroMan: you know any bypass working to test my protection sistem
+[20:02] -=[UH]=- Gen. HeX: i'll come and test it if you like, is it gmod yes?
+[20:02] BlackAfroMan: for all types of servers
+[20:02] BlackAfroMan: is in php
+[20:03] BlackAfroMan: is not a pluing its a system
+[20:03] BlackAfroMan: that protect for invasions and etc..
+[20:04] BlackAfroMan: lets change your gamemode for a ttt
+[20:04] BlackAfroMan: is better i think
+[20:04] -=[UH]=- Gen. HeX: i don't want to change it to TTT
+[20:04] -=[UH]=- Gen. HeX: it's sandbox
+[20:04] BlackAfroMan: more players will play
+[20:05] -=[UH]=- Gen. HeX: but then it's not deathmatch
+[20:05] BlackAfroMan: i know but TTT is better we can build a switch system to change the game mode a gamemode vote
+[20:06] -=[UH]=- Gen. HeX: HAC is only designed for sandbox
+[20:06] BlackAfroMan: so put just TTT
+[20:06] -=[UH]=- Gen. HeX: didn't read
+[20:06] BlackAfroMan: is better
+[20:06] -=[UH]=- Gen. HeX: HAC won't work on TTT
+[20:06] BlackAfroMan: wt is hac
+[20:07] -=[UH]=- Gen. HeX: my anticheat
+[20:07] BlackAfroMan: lets change
+[20:07] -=[UH]=- Gen. HeX: nope.
+[20:08] BlackAfroMan: i help you we can earn somemoney and expand owr clan i dont need money
+[20:09] -=[UH]=- Gen. HeX: if it's sandbox, that's fine
+[20:10] BlackAfroMan: is not sandbox
+[20:11] -=[UH]=- Gen. HeX: mine is
+[20:11] -=[UH]=- Gen. HeX: is
+[20:11] BlackAfroMan: you know TrobeTraitorTown
+[20:11] -=[UH]=- Gen. HeX: yes, i *don't want* to host it
+[20:11] BlackAfroMan: i know but lets change the script
+[20:11] -=[UH]=- Gen. HeX: you're not listening
+[20:11] BlackAfroMan: please i ill help you
+[20:11] -=[UH]=- Gen. HeX: NO TTT
+[20:11] BlackAfroMan: dont need tomuck band
+[20:12] -=[UH]=- Gen. HeX: you still don't get it, my current system of custom-coded addons WILL NOT WORK on TTT
+[20:12] BlackAfroMan: i know but we change
+[20:12] -=[UH]=- Gen. HeX: no
+[20:12] BlackAfroMan: lets buy a server
+[20:12] -=[UH]=- Gen. HeX: i am going to, in a few months
+[20:13] -=[UH]=- Gen. HeX: when garry puts out the big update
+[20:13] BlackAfroMan: i know a men who do it to us for free
+[20:13] -=[UH]=- Gen. HeX: what specs
+[20:13] -=[UH]=- Gen. HeX: also what location
+[20:14] -=[UH]=- Gen. HeX: and is it dedicated or VPS
+[20:14] BlackAfroMan: no is a host
+[20:14] -=[UH]=- Gen. HeX: i need full access to the box, shared hosting will not do
+[20:15] BlackAfroMan: have cpainel and etc
+[20:15] -=[UH]=- Gen. HeX: need RDP/VNC access
+[20:15] -=[UH]=- Gen. HeX: to the OS itsself
+[20:15] -=[UH]=- Gen. HeX: has to be windows server 2008/2003
+[20:15] -=[UH]=- Gen. HeX: 2003 preferred
+[20:21] BlackAfroMan: wait i am talking with him
+[20:21] BlackAfroMan: we need change the clame for
+[20:22] BlackAfroMan: ForeverGames
+[20:22] BlackAfroMan: bekause the he is owner of ForeverRo and is soo
+[20:23] -=[UH]=- Gen. HeX: no one would ever give some random guy root access to his server box
+[20:23] BlackAfroMan: wt
+[20:24] -=[UH]=- Gen. HeX: if my server is gonna be hosted on his box, i'll need access
+[20:25] BlackAfroMan: yes sure
+[20:25] BlackAfroMan: but is our server
+[20:25] BlackAfroMan: we are going to build a grup
+[20:25] BlackAfroMan: the name is ForeverGames ok
+[20:25] -=[UH]=- Gen. HeX: i already have one
+[20:27] BlackAfroMan: but lets build another
+[20:27] -=[UH]=- Gen. HeX: i think you mean "host" not "build"
+[20:28] BlackAfroMan: tha man sat that he can host just our site
+[20:28] BlackAfroMan: but not the servers
+[20:28] BlackAfroMan: now it with you
+[20:28] -=[UH]=- Gen. HeX: i already have shared hosting for my site
+[20:29] -=[UH]=- Gen. HeX: the gmod server is running from home at the moment
+[20:29] BlackAfroMan: i know but lets join everything
+[20:29] BlackAfroMan: end build just one grulp
+[20:30] -=[UH]=- Gen. HeX: UnitedHosts, as it's where the 159 members are already
+[20:32] BlackAfroMan: host another server and i ll host the site
+[20:32] BlackAfroMan: ok
+[20:32] BlackAfroMan: you dont need host more the site
+[20:32] BlackAfroMan: you can
+[20:32] -=[UH]=- Gen. HeX: i can;t host more gmod servers. not enough bandwidth
+[20:33] BlackAfroMan: hm
+[20:36] -=[UH]=- Gen. HeX: want to join?
+[20:36] -=[UH]=- Gen. HeX: walmart
+[20:36] BlackAfroMan: wt
+[20:36] BlackAfroMan: ?
+[20:36] -=[UH]=- Gen. HeX: wt?
+[20:37] BlackAfroMan: if i bought a server you help me
+[20:37] BlackAfroMan: ?
+[20:37] -=[UH]=- Gen. HeX: nope, cause it wouldn't be in oxford, UK, and i wouldn't have remote access
+[20:38] BlackAfroMan: you wil
+[20:38] BlackAfroMan: will
+[20:38] -=[UH]=- Gen. HeX: and is it in oxford, UK?
+[20:38] BlackAfroMan: no
+[20:38] BlackAfroMan: i ll buy a host in united state
+[20:39] BlackAfroMan: j_a_gerdes@hotmail.com
+[20:39] BlackAfroMan: addme
+[20:40] -=[UH]=- Gen. HeX: no good, it has to be an 8 threaded xeon @ 2.7+, (dual xeon preferred), 12GB DDR3, 10krpm disks, windows server 2003 x64, 100mbit+ pipe
+[20:40] -=[UH]=- Gen. HeX: i don't know where you are, but the price of that lot here is about £3k, then £150/month to host it
+[20:40] BlackAfroMan: i ll pay a host not buy one
+[20:41] -=[UH]=- Gen. HeX: it has to be dedicated
+[20:41] BlackAfroMan: i hnow
+[20:41] BlackAfroMan: iknow
+[20:41] -=[UH]=- Gen. HeX: as in, proper server box. colo preferred
+[20:41] BlackAfroMan: http://www.xenonservers.com/
+[20:42] -=[UH]=- Gen. HeX: not shared, as in, all-perpouse dedicated server box. not a specific gmod one
+[20:42] -=[UH]=- Gen. HeX: it has to be a dedicated server, *used as a gmod server*
+[20:42] -=[UH]=- Gen. HeX: it's just a standard dell server
+[20:42] BlackAfroMan: delete your server and buy a newone
+[20:43] BlackAfroMan: ops
+[20:43] BlackAfroMan: and build a newone
+[20:43] BlackAfroMan: from the 0
+[20:43] BlackAfroMan: TTT
+[20:43] -=[UH]=- Gen. HeX: not deleting anything, not ever hosting TTT.
+[20:43] -=[UH]=- Gen. HeX: if you buy me a dedicated server (as in hardware, not hosting) then fine my be
+[20:45] -=[UH]=- Gen. HeX: http://gmod.game-host.org/bar/R310.html
+[20:47] BlackAfroMan: how can i use it
+[20:47] BlackAfroMan: ?:
+[20:47] -=[UH]=- Gen. HeX: i mean, you buy me that if you want, i'll host it
+[20:49] -=[UH]=- Gen. HeX: ...?
+[20:49] BlackAfroMan: i cant buy it
+[20:49] -=[UH]=- Gen. HeX: not got £1k?
+[20:50] -=[UH]=- Gen. HeX: if all goes well after this next big gmod update, i am buying that server, and i'm gonna host my DM, sandbox and spacebuild
+[20:51] BlackAfroMan: dont host sandbox
+[20:51] -=[UH]=- Gen. HeX: i'm gonna host 2 sandboxes
+[20:51] -=[UH]=- Gen. HeX: the gmod server list is full of RP crap, needs more sandbox
+[20:51] -=[UH]=- Gen. HeX: i remember when it was all sandbox, back in 2007
+[20:51] BlackAfroMan: host a TTT
+[20:52] -=[UH]=- Gen. HeX: nope, and please stop asking, cause i will *never* host TTT or RP
+
+
+New session started on 12.10.2011 at 20:54
+[20:54] BlackAfroMan: and the server hack vs hack
+
+
+New session started on 12.10.2011 at 20:54
+[20:54] -=[UH]=- Gen. HeX: yes, i started that one as a test, but now when i get the new box i'll host it properly, more slots etc
+[20:55] -=[UH]=- Gen. HeX: also see this http://dl.dropbox.com/u/3455978/garrysmod/data/HAC_total.txt
+[20:55] BlackAfroMan: add me on msn
+[20:55] -=[UH]=- Gen. HeX: prefer steam chat
+[20:56] BlackAfroMan: i know is to show a program
+[20:56] -=[UH]=- Gen. HeX: it's my program, HAC
+[20:56] -=[UH]=- Gen. HeX: that's it's log
+[20:56] BlackAfroMan: i knoww
+[20:56] BlackAfroMan: i ll show my
+[20:56] BlackAfroMan: prog
+[20:57] -=[UH]=- Gen. HeX: ah
+[20:57] -=[UH]=- Gen. HeX: how many lines?
+[20:57] BlackAfroMan: like yoour
+[20:57] -=[UH]=- Gen. HeX: mine is just over 19.4k
+[20:57] BlackAfroMan: i dont count
+[20:57] BlackAfroMan: is in php
+[20:57] -=[UH]=- Gen. HeX: http://puu.sh/6MZ2
+[20:59] BlackAfroMan: add me
+[20:59] BlackAfroMan: wait
+[20:59] BlackAfroMan: i ll give the link ok
+[20:59] -=[UH]=- Gen. HeX: the main HAC file is about 8k lines, n++ hates editing it lol
+[21:01] -=[UH]=- Gen. HeX: http://puu.sh/6QqT
+[21:12] BlackAfroMan: look
+[21:13] -=[UH]=- Gen. HeX: at what
+[21:13] BlackAfroMan: i need anybypass
+[21:13] BlackAfroMan: any bypass to tst
+[21:13] BlackAfroMan: test
+[21:14] -=[UH]=- Gen. HeX: test what
+[21:14] BlackAfroMan: my system
+[21:14] -=[UH]=- Gen. HeX: a gmod anticheat?
+[21:14] BlackAfroMan: yes
+[21:14] BlackAfroMan: givme any working bypass
+[21:14] -=[UH]=- Gen. HeX: what server is the anticheat on?
+[21:15] BlackAfroMan: i ll use in my server in my hove
+[21:15] BlackAfroMan: just here
+[21:15] BlackAfroMan: so test
+[21:15] BlackAfroMan: you cant join because is
+[21:16] -=[UH]=- Gen. HeX: what does it check? _G and _R?
+[21:16] BlackAfroMan: local ip
+[21:16] BlackAfroMan: yes
+[21:16] -=[UH]=- Gen. HeX: if it's a local IP then there's no point having an AC
+[21:16] -=[UH]=- Gen. HeX: only people from your LAN can play
+[21:16] BlackAfroMan: givme the link any bypass
+[21:16] BlackAfroMan: yes
+[21:16] BlackAfroMan: just for tests
+[21:16] -=[UH]=- Gen. HeX: answer these questions:
+[21:17] BlackAfroMan: and i ill try with faphack
+[21:17] BlackAfroMan: yes
+[21:17] BlackAfroMan: ?
+[21:17] BlackAfroMan: its urgente my client is
+[21:17] BlackAfroMan: talkink on my head
+[21:17] BlackAfroMan: i need finish now
+[21:17] -=[UH]=- Gen. HeX: what is _R used for, what is the GMod lua load order, what is the name for the file dhat stores the clientside lua.
+[21:18] -=[UH]=- Gen. HeX: also what hashing function does gmod use for cached clientside lua files
+[21:20] BlackAfroMan: why you need this
+[21:20] -=[UH]=- Gen. HeX: to prove you're not a skiddie trying to get something outta me to go and be an ass on gmod servers.
+[21:20] BlackAfroMan: give me the link first urgente
+[21:20] -=[UH]=- Gen. HeX: asking more and more only makes me not want to give it you more
+[21:20] -=[UH]=- Gen. HeX: answer the questions.
+[21:21] -=[UH]=- Gen. HeX: and you will have it
+[21:21] BlackAfroMan: i am not lua coder icode php and delphy and VB aux
+[21:21] BlackAfroMan: au3
+[21:21] BlackAfroMan: css
+[21:21] -=[UH]=- Gen. HeX: then who coded your AC
+[21:21] BlackAfroMan: my grulp dud
+[21:21] BlackAfroMan: grup did
+[21:21] BlackAfroMan: trindadehacker.net.tc
+[21:21] BlackAfroMan: its brasilian
+[21:22] BlackAfroMan: they are brasilian like me
+[21:22] -=[UH]=- Gen. HeX: if you show me the AC/a server where it is on, and it isn't ripped, then i'll give you the bypass
+[21:22] BlackAfroMan: its a local server
+[21:23] BlackAfroMan: i dont have noip or naythink linke this
+[21:23] -=[UH]=- Gen. HeX: then upload it to pastebin or forward your ports so i can join
+[21:23] BlackAfroMan: upload wt
+[21:23] -=[UH]=- Gen. HeX: the AC
+[21:23] BlackAfroMan: i ll upload a part of my script ok
+[21:23] BlackAfroMan: its php ok
+[21:23] -=[UH]=- Gen. HeX: the GMod AC part, yes. the part that checks _G and _R
+[21:23] -=[UH]=- Gen. HeX: the part you said existed
+[21:23] BlackAfroMan: yes
+[21:24] BlackAfroMan: i ll give tyou just tej config ffile
+[21:25] -=[UH]=- Gen. HeX: here's my AC's config file, with all the important stuff blurred out. http://puu.sh/6Nnt
+[21:26] BlackAfroMan: kkkk
+[21:26] -=[UH]=- Gen. HeX: so....
+[21:26] BlackAfroMan: wtrong chat
+[21:26] BlackAfroMan: wait
+[21:27] -=[UH]=- Gen. HeX: Robustness is unavoidable with FISH TIME
+[21:28] BlackAfroMan: just a part
+[21:28] BlackAfroMan: http://pastebin.com/y3u4BK3J
+[21:28] BlackAfroMan: is in php
+[21:28] BlackAfroMan: you can se thatdont have ?>
+[21:28] BlackAfroMan: the and
+[21:28] -=[UH]=- Gen. HeX: i want to see the lua part
+[21:29] BlackAfroMan: i am no a noob
+[21:29] -=[UH]=- Gen. HeX: then answer the questions i posted
+[21:29] BlackAfroMan: i dont know LUA
+[21:29] -=[UH]=- Gen. HeX: what is _R used for, what is the GMod lua load order, what is the name for the file dhat stores the clientside lua, what hashing function does gmod use for cached clientside lua files
+[21:30] -=[UH]=- Gen. HeX: if you don't know lua, you have no chance of setting up/testing an AC (and my bypass)
+[21:30] BlackAfroMan: i dont know lua and any language in gmod
+[21:30] BlackAfroMan: its protect the ip
+[21:30] BlackAfroMan: and ill conect in the site
+[21:30] BlackAfroMan: and ill autoban the player
+[21:30] -=[UH]=- Gen. HeX: write me a simple player ban hook then, go on
+[21:30] BlackAfroMan: a member did not me
+[21:31] BlackAfroMan: i need test or i wont resive my moeny
+[21:31] BlackAfroMan: money
+[21:31] -=[UH]=- Gen. HeX: test WHAT
+[21:31] BlackAfroMan: o dont know lua
+[21:31] -=[UH]=- Gen. HeX: WHAT are you testing
+[21:31] -=[UH]=- Gen. HeX: my bypass is for GMod's scriptenforcer
+[21:31] BlackAfroMan: kk
+[21:32] BlackAfroMan: no i need test urgent my script
+[21:32] -=[UH]=- Gen. HeX: the php script?
+[21:32] BlackAfroMan: its urgente please urgent
+[21:32] BlackAfroMan: and the lua script
+[21:32] -=[UH]=- Gen. HeX: "urgent" doesn't mean shit to me
+[21:32] -=[UH]=- Gen. HeX: show me the lua
+[21:32] BlackAfroMan: no
+[21:32] BlackAfroMan: i cant give youy the lua
+[21:32] -=[UH]=- Gen. HeX: Network error 482. Somebody shot the﻿ server with a 12 Gauge, please contact your administrator
+[21:32] BlackAfroMan: sory
+[21:33] BlackAfroMan: wt is if
+[21:33] BlackAfroMan: it
+[21:33] -=[UH]=- Gen. HeX: hold up a kfc for a bucket of chicken
+[21:33] BlackAfroMan: its urgente please i pay you
+[21:33] BlackAfroMan: i need test noww
+[21:33] -=[UH]=- Gen. HeX: how much lol
+[21:33] BlackAfroMan: to give to the client
+[21:34] BlackAfroMan: 20 dolars
+[21:34] BlackAfroMan: but i need test now
+[21:34] -=[UH]=- Gen. HeX: how about, i give you the bypass, you give me the lua source
+[21:34] BlackAfroMan: hmm
+[21:35] BlackAfroMan: but givme your sorce ok
+[21:35] BlackAfroMan: and dont post my sorce ok
+[21:35] -=[UH]=- Gen. HeX: the c++ source?
+[21:35] BlackAfroMan: yes
+[21:35] BlackAfroMan: the bypass sourcer
+[21:35] -=[UH]=- Gen. HeX: yep
+[21:35] -=[UH]=- Gen. HeX: got to compile one for you
+[21:35] -=[UH]=- Gen. HeX: i;ll be about 3 mins
+[21:35] BlackAfroMan: if i se my
+[21:35] BlackAfroMan: system in any forum i ll put yours to ok
+[21:36] -=[UH]=- Gen. HeX: ?
+[21:36] BlackAfroMan: my system is not public so dont
+[21:36] BlackAfroMan: post
+[21:36] -=[UH]=- Gen. HeX: ah
+[21:36] -=[UH]=- Gen. HeX: ok
+[21:37] BlackAfroMan: givme the bypass to i finish and i pass to you
+[21:37] -=[UH]=- Gen. HeX: got to compile it, 1 min
+[21:40] -=[UH]=- Gen. HeX: done
+[21:40] BlackAfroMan: so
+[21:40] -=[UH]=- Gen. HeX: http://gmod.game-host.org/bar/gmcl_hexbypass.rar
+[21:40] BlackAfroMan: givme the link
+[21:40] -=[UH]=- Gen. HeX: source included
+[21:41] BlackAfroMan: ok
+[21:41] -=[UH]=- Gen. HeX: load the module in the menu state
+[21:41] BlackAfroMan: let me finish here
+[21:41] -=[UH]=- Gen. HeX: it runs automatticly
+[21:41] -=[UH]=- Gen. HeX: downloaded it?
+[21:41] BlackAfroMan: to put in wt folder
+[21:41] -=[UH]=- Gen. HeX: the .dll goes in lua/includes/modules
+[21:41] -=[UH]=- Gen. HeX: then make a file in lua/menu_plugins called load.lua
+[21:42] -=[UH]=- Gen. HeX: containing:
+[21:42] -=[UH]=- Gen. HeX: require("hexbypass")
+[21:42] BlackAfroMan: givme the file
+[21:42] -=[UH]=- Gen. HeX: click the link
+[21:42] BlackAfroMan: i dont know lua or giove the code
+[21:42] -=[UH]=- Gen. HeX: got it?
+[21:43] BlackAfroMan: i dont understend this part
+[21:43] -=[UH]=- Gen. HeX: CLICK LINK
+[21:43] -=[UH]=- Gen. HeX: download rar
+[21:43] -=[UH]=- Gen. HeX: extract rar
+[21:43] -=[UH]=- Gen. HeX: shoot self
+[21:43] -=[UH]=- Gen. HeX: close down pc
+[21:43] -=[UH]=- Gen. HeX: there
+[21:43] BlackAfroMan: tw link
+[21:43] -=[UH]=- Gen. HeX: http://gmod.game-host.org/bar/gmcl_hexbypass.rar
+[21:44] -=[UH]=- Gen. HeX: got it yet?
+[21:44] BlackAfroMan: i just downloaded
+[21:44] BlackAfroMan: i have downloaded
+[21:44] BlackAfroMan: and put on modules
+[21:44] BlackAfroMan: now
+[21:44] -=[UH]=- Gen. HeX: ok, now put the dll in  lua/includes/modules
+[21:44] BlackAfroMan: ?
+[21:44] BlackAfroMan: i did
+[21:44] -=[UH]=- Gen. HeX: then go to lua/menu_plugins
+[21:44] -=[UH]=- Gen. HeX: and make a new text file with the .lua extension
+[21:44] -=[UH]=- Gen. HeX: paste this in it
+[21:45] -=[UH]=- Gen. HeX: require("hexbypass")
+[21:45] BlackAfroMan: just it dont have any tag linke  <?php
+[21:45] -=[UH]=- Gen. HeX: if you can't work out simple folders and files, i give up
+[21:45] -=[UH]=- Gen. HeX: work it out or don't
+[21:45] -=[UH]=- Gen. HeX: it's your problem
+[21:46] BlackAfroMan: wt the name of the lua
+[21:46] -=[UH]=- Gen. HeX: anything
+[21:46] -=[UH]=- Gen. HeX: "load.lua" is fine
+[21:46] BlackAfroMan: i did
+[21:46] -=[UH]=- Gen. HeX: start gmod, you should see it load in the console
+[21:46] -=[UH]=- Gen. HeX: green mesages
+[21:47] BlackAfroMan: Co
+[21:47] BlackAfroMan: dold include...
+[21:47] -=[UH]=- Gen. HeX: paste the console log here
+[21:47] BlackAfroMan: Mounting lostcoast.. OK
+Mounting hl1.. OK
+Mounting hl1mp.. OK
+Mounting zeno_clash.. No permission
+Mounting left4dead2.. Disabled
+Mounting left4dead.. Disabled
+Mounting diprip.. Disabled
+Mounting zps.. Disabled
+Mounting pvkii.. Disabled
+Mounting dystopia.. Disabled
+Mounting ageofchivalry.. Disabled
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (r_VehicleViewDampen)
+Garry's Mod server.dll Build #126 [Aug 17 2011 12:28:28]
+maxplayers set to 128
+Unknown command "sv_allow_wait_command"
+Steam config directory: c:\program files (x86)\steam\steamapps\josegerdes\garrysmod\platform\config
+CClientSteamContext logged on = 1
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (v_ipitch_level)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (v_iroll_level)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (v_iyaw_level)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (v_ipitch_cycle)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (v_iroll_cycle)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (v_iyaw_cycle)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (cl_bobup)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (cl_bob)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (cl_bobcycle)
+Both ConVars must be marked FCVAR_REPLICATED for linkage to work (r_VehicleViewDampen)
+Hud element 'CHudVote' doesn't have an entry 'CHudVote' in scripts/HudLayout.res
+Garry's Mod client.dll Build #126 [Aug 17 2011 12:28:31]
+LuaGetfile: Not Loading menu_plugins\bp.LUA
+Couldn't include file 'menu_plugins\bp.LUA' (File not found) (<nowhere>)
+maxplayers set to 1
+Unknown command "cl_thirdperson"
+Unknown command "hud_showemptyweaponslots"
+Unknown command "sv_backspeed"
+Not playing a local game.
+G
+[21:48] BlackAfroMan: Couldn't include file 'menu_plugins\bp.LUA' (File not found)
+[21:48] -=[UH]=- Gen. HeX: "lua" should be lowercase
+[21:48] BlackAfroMan: sory
+[21:48] -=[UH]=- Gen. HeX: remember you need to exit gmod for it to take effect
+[21:48] -=[UH]=- Gen. HeX: and re start it
+[21:49] BlackAfroMan: SCRIPT ENFORCER bypass by HeX loaded!or, actually, wait, no it isn't cause this module is a load of bull crap!m
+[21:49] BlackAfroMan: ok
+[21:49] BlackAfroMan: ?
+[21:49] -=[UH]=- Gen. HeX: trolololol
+[21:50] BlackAfroMan: i am testing
+[21:50] BlackAfroMan: you know php
+[21:50] BlackAfroMan: ?
+[21:50] -=[UH]=- Gen. HeX: nope, only lua and some c++
+[21:51] BlackAfroMan: i think that you giveme the wrong sourcer
+[21:51] -=[UH]=- Gen. HeX: also if you're really dumb enough to still try and test the (obviously fake) module, you should shoot yourself right now, please, do it.
+[21:51] BlackAfroMan: wt?
+[21:51] -=[UH]=- Gen. HeX: THE. MODULE. IS. FAKE
+[21:52] BlackAfroMan: i know
+[21:52] BlackAfroMan: i saw the sourcer
+[21:52] BlackAfroMan: no
+[21:52] BlackAfroMan: now
+[21:52] -=[UH]=- Gen. HeX: the source is fake too
+[21:53] BlackAfroMan: i know
+[21:53] BlackAfroMan: givme the bypass and i giveyou mine urgent
+[21:53] BlackAfroMan: its urgente
+[21:54] BlackAfroMan: urgenttt
+[21:54] -=[UH]=- Gen. HeX: http://puu.sh/6UhE
+
+
+New session started on 12.10.2011 at 21:55
+[21:55] BlackAfroMan: i sow
+[21:55] BlackAfroMan: its serius
+
+
+New session started on 12.10.2011 at 21:55
+[21:55] -=[UH]=- Gen. HeX: o rly?
+[21:56] BlackAfroMan: urgent
+[21:56] BlackAfroMan: urgent
+[21:57] -=[UH]=- Gen. HeX: spam
+[21:57] -=[UH]=- Gen. HeX: spam
+[21:57] BlackAfroMan: sory you dont anser me
+[21:57] BlackAfroMan: answer
+[21:58] BlackAfroMan: its urgentt
+[21:58] -=[UH]=- Gen. HeX: aw
+[21:59] BlackAfroMan: wt??
+[21:59] BlackAfroMan: flw i need test it urgent
+[21:59] BlackAfroMan: i pay you if you want tell me
+[22:00] BlackAfroMan: bye
+[22:00] BlackAfroMan: its urgent
+[22:00] -=[UH]=- Gen. HeX: it doesn't matter how many times you say "urgent", it doesn't make me want to give it you more.
+[22:01] BlackAfroMan: ok flw if you ll help me tell me
+[22:02] -=[UH]=- Gen. HeX: i will never give you a scriptenforcer bypass since 1. you can't code lua, 2. you don't even know the gmod filesystems, 3. you joined with faphack, 4. you tell it it's "urgent" over 30 times
+[22:02] BlackAfroMan: givme just the dll i just nmeed test
+[22:02] BlackAfroMan: i give you my ddos system
+[22:02] -=[UH]=- Gen. HeX: exactly. not "to test" but "to minge and hack~"
+[22:03] BlackAfroMan: please giveme
+[22:03] -=[UH]=- Gen. HeX: why?
+[22:03] BlackAfroMan: because you are my friend?
+[22:04] -=[UH]=- Gen. HeX: read the above posts
+[22:06] BlackAfroMan: wt
+[22:06] -=[UH]=- Gen. HeX: http://puu.sh/6Ulr
+[22:08] BlackAfroMan: bye
+[22:08] -=[UH]=- Gen. HeX: bye, nice chatlog btw, don't add me again unless you want to chat some time.
+[22:09] BlackAfroMan: kk 0k

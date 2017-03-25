@@ -1,0 +1,19 @@
+gmcl_sdef2 - Garry's Mod SE1 bypass + source
+
+
+
+
+I'm leaving GMod for good. Have one of my old ScriptEnforcer bypasses + source.
+
+http://www.multiupload.com/FA9IU2BB5K
+
+Virustotal: https://www.virustotal.com/file/572bbf62bb325f47015be17b315c5f83b205d6986b70b0232c60bdef3de8cd55/analysis/1326493497/
+
+
+The dll goes in ./lua/includes/modules and the lua file in ./lua/menu_plugins/ (create this folder if it doesn't exist).
+
+No commands/settings. Add these by editing ml_SDef2.lua if you want. Allows all lua files to load by default. 
+
+
+
+

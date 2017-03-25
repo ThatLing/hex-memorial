@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Backwards">
+      <UniqueIdentifier>{2d5bec59-a659-4862-821e-9ec8377c434f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backwards">
+      <UniqueIdentifier>{192a824a-00f2-48df-bde1-91cb75f29977}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\backwards_headers\ILuaModuleManager.cpp">
+      <Filter>Source Files\Backwards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\backwards_headers\ILuaObject.cpp">
+      <Filter>Source Files\Backwards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\backwards_headers\ILuaInterface.cpp">
+      <Filter>Source Files\Backwards</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\backwards_headers\ILuaInterface.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\ILuaModuleManager.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\ILuaObject.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\ILuaTable.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\Interface.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\LuaBase.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\Types.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\backwards_headers\UserData.h">
+      <Filter>Header Files\Backwards</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

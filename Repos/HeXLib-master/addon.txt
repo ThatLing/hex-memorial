@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	"name"				"HeXLib"
+	"version"			"1"
+	"up_date"			"31.08.16"
+	"author_name"		"-=[UH]=- General HeX"
+	"author_email"		"/id/MFSiNC"
+	"author_url"		"UnitedHosts.org"
+	"info"				"See README.md"
+	"override"			"0"
+}
+
+
+
+

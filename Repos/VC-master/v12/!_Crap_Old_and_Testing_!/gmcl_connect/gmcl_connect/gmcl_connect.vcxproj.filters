@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GMInterface">
+      <UniqueIdentifier>{e1a82219-4046-4f1e-a3a1-00c3920ae068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimpleScan">
+      <UniqueIdentifier>{5b7a3b5d-e71e-48f8-b668-c152edb225f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimpleDetours">
+      <UniqueIdentifier>{4e3f5644-0fc9-4802-964a-59c292e0c558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimpleScan">
+      <UniqueIdentifier>{0c9d7509-b4f5-4856-9837-6af2b5303149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimpleDetours">
+      <UniqueIdentifier>{6dd90ca8-e0b9-4e2e-802d-5ad0cd82b3ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmcl_connect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simplescan\sigscan.cpp">
+      <Filter>Source Files\SimpleScan</Filter>
+    </ClCompile>
+    <ClCompile Include="simplescan\csimplescan.cpp">
+      <Filter>Source Files\SimpleScan</Filter>
+    </ClCompile>
+    <ClCompile Include="simpledetours\csimpledetour.cpp">
+      <Filter>Source Files\SimpleDetours</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gminterface\GMLuaModule.h">
+      <Filter>Header Files\GMInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="gminterface\ILuaInterface.h">
+      <Filter>Header Files\GMInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="gminterface\ILuaModuleManager.h">
+      <Filter>Header Files\GMInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="gminterface\ILuaObject.h">
+      <Filter>Header Files\GMInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="gminterface\ILuaShared.h">
+      <Filter>Header Files\GMInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="simplescan\csimplescan.h">
+      <Filter>Header Files\SimpleScan</Filter>
+    </ClInclude>
+    <ClInclude Include="simplescan\sigscan.h">
+      <Filter>Header Files\SimpleScan</Filter>
+    </ClInclude>
+    <ClInclude Include="simpledetours\csimpledetour.h">
+      <Filter>Header Files\SimpleDetours</Filter>
+    </ClInclude>
+    <ClInclude Include="simpledetours\detours.h">
+      <Filter>Header Files\SimpleDetours</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

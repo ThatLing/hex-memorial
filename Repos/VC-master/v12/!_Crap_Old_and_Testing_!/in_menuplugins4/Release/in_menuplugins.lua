@@ -1,0 +1,1 @@
+print("! loaded, finally")for k,v in pairs( file.Find("menu_plugins/*.lua", LUA_PATH) ) do	local ret,err = pcall(function()		include("menu_plugins/"..v)	end)		if err then		print("! error: ", err)	endend
