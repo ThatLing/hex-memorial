@@ -1,0 +1,82 @@
+
+----------------------------------------
+--         2014-07-12 20:33:10          --
+------------------------------------------
+--[[---------------------------------------------------------
+    PlayerColor Material Proxy
+      Sets the clothing colour of custom made models to
+      ent.GetPlayerColor, a normalized vector colour.
+-----------------------------------------------------------]]
+
+matproxy.Add( {
+	name = "PlayerColor",
+
+	init = function( self, mat, values )
+		-- Store the name of the variable we want to set
+		self.ResultTo = values.resultvar
+	end,
+
+	bind = function( self, mat, ent )
+		if not IsValid( ent ) then return end
+
+		-- If entity is a ragdoll try to convert it into the player
+		-- ( this applies to their corpses )
+		if ( ent:IsRagdoll() ) then
+			local owner = ent:GetRagdollOwner()
+			ent = IsValid(owner) and owner or ent
+		end
+
+		-- If the target ent has a function called GetPlayerColor then use that
+		-- The function SHOULD return a Vector with the chosen player's colour.
+		if ( ent.GetPlayerColor ) then
+			local col = ent:GetPlayerColor()
+			if ( isvector( col ) ) then
+				mat:SetVector( self.ResultTo, col )
+			end
+		else
+			mat:SetVector( self.ResultTo, Vector( 62.0/255.0, 88.0/255.0, 106.0/255.0 ) )
+		end
+	end 
+} )
+
+
+----------------------------------------
+--         2014-07-12 20:33:10          --
+------------------------------------------
+--[[---------------------------------------------------------
+    PlayerColor Material Proxy
+      Sets the clothing colour of custom made models to
+      ent.GetPlayerColor, a normalized vector colour.
+-----------------------------------------------------------]]
+
+matproxy.Add( {
+	name = "PlayerColor",
+
+	init = function( self, mat, values )
+		-- Store the name of the variable we want to set
+		self.ResultTo = values.resultvar
+	end,
+
+	bind = function( self, mat, ent )
+		if not IsValid( ent ) then return end
+
+		-- If entity is a ragdoll try to convert it into the player
+		-- ( this applies to their corpses )
+		if ( ent:IsRagdoll() ) then
+			local owner = ent:GetRagdollOwner()
+			ent = IsValid(owner) and owner or ent
+		end
+
+		-- If the target ent has a function called GetPlayerColor then use that
+		-- The function SHOULD return a Vector with the chosen player's colour.
+		if ( ent.GetPlayerColor ) then
+			local col = ent:GetPlayerColor()
+			if ( isvector( col ) ) then
+				mat:SetVector( self.ResultTo, col )
+			end
+		else
+			mat:SetVector( self.ResultTo, Vector( 62.0/255.0, 88.0/255.0, 106.0/255.0 ) )
+		end
+	end 
+} )
+
