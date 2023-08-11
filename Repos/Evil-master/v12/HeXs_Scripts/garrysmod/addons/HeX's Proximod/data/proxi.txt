@@ -1,0 +1,70 @@
+0.205
+Fixed Compass being not oriented correctly. North is now aligned to +Y.
+&
+Fixed menu lists not allowing scrolling down.
+0.204
+Fixed FamiliarizeString issue on NPC beacon.
+0.203
+Fixed Q menu checkbox not running the callbacks.
+0.202
+Fixed infinite loop when typing on text fields.
+&
+Provided a way to close the menu using a button.
+0.201
+Fixed Wallfinders not running.
+0.2
+Proxi is now using HayFrame, including a redesigned menu.
+0.123
+Wallfinder Pierce-Traceback performs a wall-angle estimation in order to get more precision on closer walls.
+&
+Added experimental Eyemod Debug mode.
+0.122
+Added Pin Scale option (Won't work yet will all beacons).
+0.121
+Added yet another Wallfinder that can find walls on the opposite direction after piercing.
+0.12
+Added maximum distance slider for Entity Select.
+&
+Added maximum distance bypass checkboxes for some beacons.
+0.114
+Player beacon now only displays the first letter of the player name if the beacon is bound to the circle.
+&
+Player beacon now only displays the full nickname of Steam Friends no matter what.
+&
+Added requested Helper Square (simple version).
+&
+Added Voice Chat beacon.
+0.113
+Altered Wallfinder incremental.
+0.112
+Added experimental Wallfinder with piercer (Red lines).
+&
+Changed Chat beacon opacity.
+0.111
+Fixed a bug that occurs when the script is reloaded during a single session breaking down the beacons system.
+0.11
+Added end-user hidden Mount system.
+&
+Beacons are now part of an Inscript-like architecture.
+&
+Added Callbacks on Enable global and Beacon enable variables.
+&
+Added Chat beacon (The first Event beacon).
+&
+Changed Wallfinder to perform scans in a triform.
+0.104
+Player beacon will now make the Local Player name translucent if thy's not near the center.
+&
+Added experimental Wallfinder beacon.
+0.103
+Added NPC, NPC LOS, and Compass for Contraptions.
+&
+Cleaned up menu.
+&
+Menu beacons are now ordered in alphabetic order.
+0.102
+Fixed a critical bug which crashes the menu (due to poor copy and paste).
+0.101
+Made available for betatesting.
+0.1
+Proxi Project.

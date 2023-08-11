@@ -1,0 +1,1 @@
+local NoWay = {	"playvideo_exitcommand",	--"gameui_preventescape",	"con_enable",	--"condump",}for k,v in pairs(NoWay) do	HeXLRCL('alias "'..v..'" "echo [HeX] '..v..'"')endtimer.Simple(0, function()	print("[HeX] Alias'd "..#NoWay.." commands!")end)

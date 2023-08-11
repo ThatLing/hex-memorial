@@ -1,0 +1,19 @@
+
+if iface3 then return end
+
+
+Msg("\n")
+Msg("/////////////////////////////////////\n")
+Msg("//       HeX's Scripts Loader      //\n")
+Msg("/////////////////////////////////////\n")
+
+include("HeX/hx_loader_backend.lua")
+
+Msg("/////////////////////////////////////\n")
+Msg("//             Loaded!             //\n")
+Msg("/////////////////////////////////////\n")
+Msg("\n")
+
+
+
+

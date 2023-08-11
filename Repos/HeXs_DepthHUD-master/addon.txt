@@ -1,0 +1,20 @@
+"AddonInfo"
+{
+	"name"		"Depth HUD Inline SVN"
+	"version"	"SVN"
+	"up_date"	"31th July 2009"
+	"author_name"	"Hurricaaane"
+	"author_url"	"http://www.youtube.com/user/Hurricaaane"
+	
+	"info"		"The classic DepthHUD, remade."
+
+	//
+	// !!!!! This is important !!!!!
+	//
+	// If you are adding new stuff this should be 0
+	// If you're overriding stuff that already exists this should be 1
+	// Loadtimes will increase slightly with every addon you have with 
+	//  this set to 1 - so only set override if you really need to.
+
+	"override"	"0"
+}

@@ -1,0 +1,51 @@
+[Info]
+Type:AdvDupe File
+Creator:"-=[UH]=- HeX"
+Date:01/03/11
+Description:"none"
+Entities:2
+Constraints:1
+[More Information]
+FileVersion:0.84
+AdvDupeVersion:1.85
+AdvDupeToolVersion:1.9
+AdvDupeSharedVersion:1.72
+SerialiserVersion:1.4
+WireVersion:Not Installed
+Time:02:32 PM
+Head:91
+HoldAngle:0,-173.312,0
+HoldPos:-56.4571,2.37899,20.8808
+StartPos:12362.2,-1281.14,8.03125
+[Save]
+Entities:H442DB028{N:91=T:52C6F7E8;N:90=T:5195AA30;}5312CF78{N:0=T:4447DC90;}5195AA30{Y:10=N:0;Y:1=A:0.191062,94.5541,86.5109;Y:12=Y:11;Y:6=Y:13;Y:8=Y:14;Y:4=T:5071ECC8;Y:15=N:5;Y:16=B:t;Y:18=Y:17;Y:2=V:19.1992,-0.821289,11.7557;Y:9=N:0;Y:19=N:0;Y:20=N:5472.1499023438;S:"key"=N:8;}4447DC90{Y:1=A:3.39737,-175.446,180.189;Y:2=V:-57.2305,-6.8761,17.5061;Y:3=B:t;}52C6F7E8{Y:4=T:5312CF78;Y:1=A:3.39737,-175.446,-179.811;Y:2=V:-57.2305,-6.8761,17.5061;Y:6=Y:5;Y:8=Y:7;Y:9=N:0;}57837130{Y:1=A:0.191062,94.5541,86.5109;Y:2=V:19.1992,-0.821289,11.7557;Y:3=B:f;}5071ECC8{N:0=T:57837130;}
+Constraints:50B75C00{Y:22=N:91;Y:23=N:0;}531E0C40{Y:22=N:90;Y:23=N:0;}H44963958{T:57022908;}57022908{Y:16=B:t;Y:21=N:0;Y:24=T:54D6A788;Y:25=B:t;Y:27=Y:26;}54D6A788{T:531E0C40;T:50B75C00;}
+[Dict]
+1:"LocalAngle"
+2:"LocalPos"
+3:"Frozen"
+4:"PhysicsObjects"
+5:"models/props_phx/mk-82.mdl"
+6:"Model"
+7:"mk-82_sent_atomic_bomb"
+8:"Class"
+9:"Skin"
+10:"damageable"
+11:"plasma"
+12:"effect"
+13:"models/props_junk/metalbucket01a.mdl"
+14:"gmod_thruster"
+15:"key_bck"
+16:"nocollide"
+17:"WeaponDissolve.Beam"
+18:"soundname"
+19:"toggle"
+20:"force"
+21:"forcelimit"
+22:"Index"
+23:"Bone"
+24:"Entity"
+25:"deleteonbreak"
+26:"Weld"
+27:"Type"
+Saved:14

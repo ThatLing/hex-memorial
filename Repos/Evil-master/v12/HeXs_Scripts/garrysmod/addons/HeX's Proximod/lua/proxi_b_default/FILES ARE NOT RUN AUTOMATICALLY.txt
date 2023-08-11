@@ -1,0 +1,2 @@
+The files you put there are NOT run automatically.
+Neither will the beacon system work correctly if you register a beacon on the fly (yet).

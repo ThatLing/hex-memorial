@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "killicons/prop_ragdoll_killicon"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

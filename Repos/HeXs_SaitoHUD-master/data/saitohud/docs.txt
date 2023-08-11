@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SaitoHUD Documentation</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #ffffff;
+  color: #000000;
+  line-height: 130%;
+}
+body, table, td {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+a:link, a:visited {
+  color: #444444;
+}
+a:hover, a:active {
+  color: #D01A55;
+}
+h1 {
+  margin: 0 0 20px 0;
+  font-family: Arial, Helvetica, Helvetica;
+  font-weight: bold;
+  font-size: 160%;
+  color: #585947;
+}
+h2 {
+  margin: 30px 0 20px 0;
+	padding: 6px 0 0 0;
+  font-family: Arial, Lucida Grande, Trebuchet MS;
+  font-size: 130%;
+  color: #D01A55;
+	border-top: 1px solid #999999;
+}
+h3 {
+  margin: 20px 0 20px 0;
+  font-family: Arial, Lucida Grande, Trebuchet MS;
+  font-size: 120%;
+  color: #000000
+}
+table {
+  border: 1px solid #999999;
+  border-right: 0;
+  border-bottom: 0;
+  width: 100%;
+}
+table th, table td {
+  border: 1px solid #999999;
+  border-top: 0;
+  border-left: 0;
+  padding: 3px 5px 3px 5px;
+  vertical-align: top;
+}
+table th {
+  background: #CCCEA9;
+  text-align: left;
+}
+pre, code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 110%;
+}
+#footer {
+  margin: 40px 0 0 0;
+  padding: 5px 0 0 0;
+  color: #444444;
+  border-top: 1px solid #999999;
+}
+#footer-id {
+	float: right;
+}
+.cheat-deterrent {
+		background: #FFFFA6;
+		color: #444444;
+		font-size: 7pt;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <h1>SaitoHUD Documentation  </h1>
+  <ol>
+    <li><a href="#general">General Information</a></li>
+    <li><a href="#concepts">Concepts</a>
+<ol>
+        <li><a href="#entity-filters">Entity Filters</a></li>
+        <li><a href="#gesture-menu">Gesture Menu</a></li>
+      </ol>
+    </li>
+    <li><a href="#info-displays">Information Displays</a></li>
+    <li><a href="#player-identification">Player Identification</a>
+<ol>
+    <li><a href="#highlighting-friends">Highlighting Friends</a></li></ol></li>
+    <li><a href="#entity-highlighting">Entity Highlighting</a>
+      <ol>
+        <li><a href="#quick-filters-list">Quick Filters List</a></li>
+      </ol>
+    </li>
+    <li><a href="#sampling">Sampling</a></li>
+    <li><a href="#surveying">Surveying</a></li>
+    <li><a href="#spectating">Spectating</a></li>
+    <li><a href="#debug">Debugging</a>
+    <li><a href="#stranded">Stranded Game Mode</a></li>
+    <li><a href="#sandbox">Sandbox Game Mode</a>
+      <ol>
+        <li><a href="#sandbox-customize-menu">Customizing the Gesture Menu</a></li>
+      </ol>
+    </li>
+    <li><a href="#miscellaneous">Miscellaneous</a></li>
+  </ol>
+<h2><a id="general">General Information</a></h2>
+<p>Many SaitoHUD functions are disabled when you are playing on non-Sandbox game modes. This is to reduce the temptation of cheating, even if you may not usually cheat. These functions will be marked by <span class="cheat-deterrent">*</span> in this document.</p>
+<h2><a id="concepts">Concepts</a></h2>
+<h3><a id="entity-filters">Entity Filters</a></h3>
+  <p>Some of SaitoHUD's commands support <em>entity filters</em>, which allow you to specify a criteria by which to match entities. You list a set of conditions separated by spaces, with each condition being in the format of <code>property=value</code>. For an entity to match a filter, all conditions must be satisfied. For example, if you wanted to only select entities with &quot;wire&quot; in their class name and &quot;gate&quot; in the model paths, the following filter would be used:</p>
+  <pre>class=wire model=gate</pre>
+  <p>Note how they match <em>substrings</em>. By default, it is assumed that you mean class, so the following filter would have sufficed:</p>
+  <pre>wire model=gate</pre>
+  <p>If you want to a condition that the entity must <em>not</em> match, place a hyphen (-) in front of the value. For example, if you wanted to match the conditions mentioned above, but you did not want to match entities with &quot;sand&quot; in their material paths, you would use:</p>
+  <pre>class=wire model=gate material=-sand</pre>
+  <p>An alternative syntax of the above filter using the syntax <code>@type pattern</code> is:</p>
+<pre>wire @model gate @material sand</pre>
+  <p>SaitoHUD supports the following  properties to filter by:</p>
+  <ul>
+    <li>@id</li>
+    <li>@mindist (alias: @min)</li>
+    <li>@maxdist (alias: @max)</li>
+    <li>@model (alias: @mdl)</li>
+    <li>@material (alias @mat)</li>
+    <li>@name (alias: @nam)</li>
+  </ul>
+  <p>The @mindist and @maxdist properties take numbers as arguments and allow you to filter entities by their distance away from you.</p>
+  <p>Use an asterisk (*) if you wish to match all class names, models, or materials (ex. <code>*</code> or <code>@mdl *</code> or even <code>@mdl -*</code>). Note that it cannot be used as a wildcard character; if you use it, it must stand alone. To disable a filter, execute the command without any arguments.</p>
+  <p>If you want at least one condition to match, but you do not need all conditions to match, you can can seperate the conditions with &quot;or&quot;. ORs have operator precedence over ANDs. So far, you have not seen AND explicitly written because it is assumed, but you may write it if it clarifies the filter string. See the filters below, which all do the same thing:</p>
+  <pre>wire and (expr or gate mdl=cpu) or mdl=barrel<br>wire and (expr or gate @mdl cpu) or @mdl barrel<br>wire ( expr or gate @mdl cpu ) or @mdl barrel</pre>
+  <h3><a id="gesture-menu">Gesture Menu</a></h3>
+  <p>SaitoHUD provides a quick context-sensitive menu that can be opened with a key and quickly scrolled with the mouse. By default, SaitoHUD does not have anything in this menu, but plugins may populate the list. To enable list gestures, bind <code>+listgest</code> to a key or mouse button, preferrably a mouse button.</p>
+  <p>As long as the bound button is held down, the menu will appear in the top right. Scroll through the menu by moving your mouse, and lift your finger off the bound button to once you have selected an item. Note that you may have to move the mouse slightly after you have lifted your finger for a selection to take effect.</p>
+<h2><a id="info-displays">Information Displays</a></h2>
+<p>SaitoHUD has the following information displays:</p>
+<ul>
+  <li>Information about the entity that you are looking at.</li>
+  <li>Information about the player that you are looking at.</li>
+</ul>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>entity_info</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws information about the entity that you are looking on.</td>
+  </tr>
+  <tr>
+    <td>entity_info_player</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>In addition to entity information, additional player information can also be displayed.</td>
+  </tr>
+</table>
+<h3>Commands</h3>
+<table border="0" cellpadding="0" cellspacing="0">
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Arguments</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>dump_info</td>
+    <td nowrap="nowrap">void</td>
+    <td>Dumps the contents of entity information HUD overlay to console for easy copy and paste.</td>
+  </tr>
+</table>
+<h2><a id="player-identification">Player Indentification</a></h2>
+<p>Players can be identified with:</p>
+<ul>
+  <li>Name tags visible on the HUD. The distance that the player is away from you is also displayed.<span class="cheat-deterrent">*</span> </li>
+  <li>Player bounding boxes that show the bounding boxes of players on your HUD.<span class="cheat-deterrent">*</span></li>
+  <li>Player markers that display a small arrow beneath the feet of players on your HUD, indicating orientation.<span class="cheat-deterrent">*</span></li>
+</ul>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>entity_info</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws information about the entity that you are looking on.</td>
+  </tr>
+  <tr>
+    <td>entity_info_player</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>In addition to entity information, additional player information can also be displayed.</td>
+  </tr>
+  <tr>
+    <td>name_tags<span class="cheat-deterrent">*</span></td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Draws the names of players.</td>
+  </tr>
+  <tr>
+    <td>friend_tags_always<span class="cheat-deterrent">*</span></td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Always draws the names of friends.</td>
+  </tr>
+  <tr>
+    <td>friends_use_steam</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Use Steam friends to highlight.</td>
+  </tr>
+  <tr>
+    <td>friend_color</td>
+    <td>string</td>
+    <td>255,255,0</td>
+    <td>Friend color for Steam friends.</td>
+  </tr>
+  <tr>
+    <td>name_tags_simple</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Draws name tags using a simpler text style (less FPS drop).</td>
+  </tr>
+  <tr>
+    <td>name_tags_rainbow_friends</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Draws friends with a rainbow name color.</td>
+  </tr>
+  <tr>
+    <td>name_tags_bold_friends</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws friends with a bold name.</td>
+  </tr>
+  <tr>
+    <td>name_tags_distances</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws distances with name tags.</td>
+  </tr>
+  <tr>
+    <td>player_boxes<span class="cheat-deterrent">*</span></td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Draws the bounding boxes and direction lines of players.</td>
+  </tr>
+  <tr>
+    <td>player_markers<span class="cheat-deterrent">*</span></td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Draws an arrow under the feet of players indicating the way they face.</td>
+  </tr>
+</table>
+<h3><a id="highlighting-friends">Highlighting Friends</a></h3>
+<p>Name tags for friends can be colored differently and bolded for easier identification.</p>
+<p>In order for SaitoHUD to know who is a friend of yours, you need to create a friends list. Create a CSV file at <strong>data/saitohud/friends.csv</strong> and in it, put nicknames for your friends, Steam IDs of your friends, and red, green, and blue components to color their in-game name tags with.</p>
+<p>See the following example:</p>
+<pre>Nickname,SteamID,R,G,B<br>Great Friend,STEAM_0:0:0000001,255,255,0<br>Another Friend,STEAM_0:0:0000002,255,0,0</pre>
+<h2><a id="entity-highlighting">Entity Highlighting</a></h2>
+<p>Entities can be highlighted based on an <a href="#entity-filters">entity filter</a> with:</p>
+<ul>
+  <li>Triads, or 3D coordinate origin markers, that are displayed at the locations of selected entities.<span class="cheat-deterrent">*</span></li>
+  <li>HUD displays of entity properties at the locations of selected entities.<span class="cheat-deterrent">*</span>
+    <ul>
+      <li>Peak speed can be shown for entities. The data is cached but that data can be cleared with the appropriate console command below.</li>
+    </ul>
+  </li>
+  <li>Bounding boxes of entities that aredisplayed at the locations of selected entities.<span class="cheat-deterrent">*</span></li>
+</ul>
+<p>The results of the filtering operations for the following functions are cached for very brief amounts of time to significantly increase performance.</p>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>overlays_continuous_eval</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Continually evaluate the filters every time the the HUD is drawn. This may result in a very large FPS drop, depending on your setup and the number of entities.</td>
+  </tr>
+  <tr>
+    <td>overlay_filter_text</td>
+    <td>text</td>
+    <td>&quot;class&quot;</td>
+    <td>Text to show for overlay filters. Options: class, model, material, speed, peakspeed</td>
+  </tr>
+  <tr>
+    <td>overlay_filter_print_removed</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>When an entity is removed from an overlay filter cache, then print the result.</td>
+  </tr>
+</table>
+<h3>Commands</h3>
+<table border="0" cellpadding="0" cellspacing="0">
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Arguments</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>triads_filter<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">filter filter(...)</td>
+    <td>Draws 3D coordinate triads at the location of matched entities.</td>
+  </tr>
+  <tr>
+    <td>overlay_filter<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">filter filter(...)</td>
+    <td>Draws class names at the location of matched entities.</td>
+  </tr>
+  <tr>
+    <td>overlay_filter_clear_cache</td>
+    <td nowrap="nowrap">void</td>
+    <td>Clears the data point cache used by the overlay filte.r</td>
+  </tr>
+  <tr>
+    <td>bbox_filter<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">filter filter(...)</td>
+    <td>Draws bounding boxes at the location of matched entities..</td>
+  </tr>
+  <tr>
+    <td>vel_vec_filter<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">filter filter(...)</td>
+    <td>Draws velocity arrows at the location of matched entities..</td>
+  </tr>
+  <tr>
+    <td>toggle_triads<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">void</td>
+    <td>Legacy function to toggle triads on all entities on and off.</td>
+  </tr>
+</table>
+<h3><a id="quick-filters-list">Quick Filters List</a></h3>
+<p>The tool menu panel has a quick filters list that is customizable. Create the CSV file <strong>data/saitohud/quick_filters.csv</strong> and list each  filter on one line.</p>
+<h2><a id="sampling">Sampling</a></h2>
+<p>Sampling allows you to trace the path of an entity or player. The path that the entity or player travels is drawn on the screen. By default, you can only sample one entity at a time, but a cvar adjusts this behavior.</p>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>sample_draw<span class="cheat-deterrent">*</span></td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws the lines tracing the paths of sampled entities.</td>
+  </tr>
+  <tr>
+    <td>sample_resolution</td>
+    <td>float</td>
+    <td>20</td>
+    <td>The interval, in milliseconds, at which the sampler will take data points.</td>
+  </tr>
+  <tr>
+    <td>sample_size</td>
+    <td>int</td>
+    <td>100</td>
+    <td>The maximum number of data points to store for a single sampled entity. Older data points will be removed.</td>
+  </tr>
+  <tr>
+    <td>sample_nodes</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws squares at the data points.</td>
+  </tr>
+  <tr>
+    <td>sample_multiple</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Allows for sampling of more than one entity or player at a time.</td>
+  </tr>
+  <tr>
+    <td>sample_random_color</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Use a random color.</td>
+  </tr>
+  <tr>
+    <td>sample_fade</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Fade out old data points when drawing.</td>
+  </tr>
+  <tr>
+    <td>sample_thick</td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Draw thicker lines.</td>
+  </tr>
+</table>
+<h3>Commands</h3>
+<table border="0" cellpadding="0" cellspacing="0">
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Arguments</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>sample</td>
+    <td nowrap="nowrap">void</td>
+    <td>Samples the entity that you are looking at.</td>
+  </tr>
+  <tr>
+    <td>sample</td>
+    <td nowrap="nowrap">string name</td>
+    <td>Samples a player, found by their name.</td>
+  </tr>
+  <tr>
+    <td>sample_id</td>
+    <td nowrap="nowrap">int id</td>
+    <td>Samples an entity, found by entity index.</td>
+  </tr>
+  <tr>
+    <td>sample_filter</td>
+    <td nowrap="nowrap">filter filter(...)</td>
+    <td>Samples entities, based on an entity filter.</td>
+  </tr>
+  <tr>
+    <td>sample_remove</td>
+    <td nowrap="nowrap">void</td>
+    <td>Stops sampling the entity that you are looking at.</td>
+  </tr>
+  <tr>
+    <td>sample_remove</td>
+    <td nowrap="nowrap">string name</td>
+    <td>Stops sampling a player, found by their name.</td>
+  </tr>
+  <tr>
+    <td>sample_remove_id</td>
+    <td nowrap="nowrap">int id</td>
+    <td>Stops sampling an entity, found by entity index.</td>
+  </tr>
+  <tr>
+    <td>sample_remove_filter</td>
+    <td nowrap="nowrap">filter filter(...)</td>
+    <td>Stops sampling entities, based on an entity filter.</td>
+  </tr>
+  <tr>
+    <td>sample_clear</td>
+    <td nowrap="nowrap">void</td>
+    <td>Stops sampling all entities.</td>
+  </tr>
+  <tr>
+    <td>sample_list</td>
+    <td nowrap="nowrap">void</td>
+    <td>Prints a list of all sampled entities to console.</td>
+  </tr>
+</table>
+<h2><a id="surveying">Surveying</a></h2>
+<p>SaitoHUD can:</p>
+<ul>
+  <li>Draw an orthogonal line extending away from a point that you were looking at.</li>
+  <li>Draw a line from your point of view and reflect it multiple times.</li>
+  <li>Measure the distance of a path.</li>
+  </ul>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>ortho_trace_text<span class="cheat-deterrent"></span></td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draws coordinates for end points of orthogonal traces.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace_nodes<span class="cheat-deterrent"></span></td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Draw reflection trace nodes.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace_multiple<span class="cheat-deterrent"></span></td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Allow multiple reflection trace analyses at the same time.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace_color_progression<span class="cheat-deterrent"></span></td>
+    <td>bool</td>
+    <td>0</td>
+    <td>Change the color of the line based on the line number out of the total.</td>
+  </tr>
+</table>
+<h3>Commands</h3>
+<table border="0" cellpadding="0" cellspacing="0">
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Arguments</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>ortho_trace</td>
+    <td nowrap="nowrap">void</td>
+    <td>Creates an orthogonal trace starting from where you are looking at.</td>
+  </tr>
+  <tr>
+    <td>ortho_trace_clear</td>
+    <td nowrap="nowrap">void</td>
+    <td>Clears the list of orthogonal traces.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace</td>
+    <td nowrap="nowrap">int numReflections</td>
+    <td>Starts a reflection analysis trace from your point of view.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace_ent</td>
+    <td nowrap="nowrap">int numReflections, float p, float y, float r</td>
+    <td>Starts a reflection analysis trace from an entity's origin with a relative angle.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace_ent_live</td>
+    <td nowrap="nowrap">int numReflections, float p, float y, float r</td>
+    <td>Starts a reflection analysis trace from an entity's origin with a relative angle. Continually recalculated every tick.</td>
+  </tr>
+  <tr>
+    <td>reflect_trace_clear</td>
+    <td nowrap="nowrap">void</td>
+    <td>Clear the list of reflection traces.</td>
+  </tr>
+  <tr>
+    <td>measure_add</td>
+    <td nowrap="nowrap">void</td>
+    <td>Adds the point that you are looking at to the measured path.</td>
+  </tr>
+  <tr>
+    <td>measure_add</td>
+    <td nowrap="nowrap">float x, float y, float z</td>
+    <td>Adds a coordinate to the measured path.</td>
+  </tr>
+  <tr>
+    <td>measure_add_ortho</td>
+    <td nowrap="nowrap">void</td>
+    <td>Adds two points to the list of measured path points, one at the point that you are looking at, and the second point  on the line normal to the hit surface that hits the first object.</td>
+  </tr>
+  <tr>
+    <td>measure_insert</td>
+    <td nowrap="nowrap">int index</td>
+    <td>Adds the point that you are looking at to the measured path at a certain index.</td>
+  </tr>
+  <tr>
+    <td>measure_insert</td>
+    <td>int index, float x, float y, float z</td>
+    <td>Adds a coordinate to the measured path at a certain index.</td>
+  </tr>
+  <tr>
+    <td>measure_insert_ortho</td>
+    <td>int index</td>
+    <td>See measure_add_ortho. Inserts the two points at index.</td>
+  </tr>
+  <tr>
+    <td>measure_replace</td>
+    <td nowrap="nowrap">int index</td>
+    <td>Replaces a point on the measured path with the point that you are looking at.</td>
+  </tr>
+  <tr>
+    <td>measure_replace</td>
+    <td>int index, float x, float y, float z</td>
+    <td>Replaces a point on the measured path with a coordinate.</td>
+  </tr>
+  <tr>
+    <td>measure_close</td>
+    <td>void</td>
+    <td>Closes the path.</td>
+  </tr>
+  <tr>
+    <td>measure_list</td>
+    <td nowrap="nowrap">void</td>
+    <td>Lists the points of the measured path.</td>
+  </tr>
+  <tr>
+    <td>measure_clear</td>
+    <td nowrap="nowrap">void</td>
+    <td>Clears the list of points in the measured path.</td>
+  </tr>
+  <tr>
+    <td>measure_sum</td>
+    <td nowrap="nowrap">int index1, int index2</td>
+    <td>Adds the distances between the points between the points at index1 and at index2.</td>
+  </tr>
+  <tr>
+    <td>measure_between</td>
+    <td nowrap="nowrap">int index1, int index2</td>
+    <td>Adds the  distance of the direct vector between points at index1 and at index2.</td>
+  </tr>
+  <tr>
+    <td>measure_remove</td>
+    <td nowrap="nowrap">int index</td>
+    <td>Remove a point.</td>
+  </tr>
+  <tr>
+    <td>measure_remove_last</td>
+    <td nowrap="nowrap">void</td>
+    <td>Remove the last point.</td>
+  </tr>
+</table>
+<h2><a id="spectating">Spectating</a></h2>
+<p>Free spectate mode allows you to move a free floating camera around the map to be able to see outside your player. Be aware that only entities within your vincinity will be visible because the server will only send entities that you should be able to see (in your potentially-visible set).</p>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>free_spectate_lock<span class="cheat-deterrent"></span></td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Locks player movement and turning while free spectating. Turn this off if you want your player to face the point that you are looking at from free spectate mode.</td>
+  </tr>
+  <tr>
+    <td>free_spectate_rate<span class="cheat-deterrent"></span></td>
+    <td>float</td>
+    <td>1000</td>
+    <td>Rate at which camera moves.</td>
+  </tr>
+  <tr>
+    <td>free_spectate_notice<span class="cheat-deterrent"></span></td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Show a notice when you are free spectating.</td>
+  </tr>
+  <tr>
+    <td>free_spectate_slow_factor<span class="cheat-deterrent"></span></td>
+    <td>float</td>
+    <td>4</td>
+    <td>Factor by which to reduce the camera movement rate when the walk key is pressed.</td>
+  </tr>
+</table>
+<h3>Commands</h3>
+<table border="0" cellpadding="0" cellspacing="0">
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Arguments</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>toggle_spectate<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">void</td>
+    <td>Toggle free spectate.</td>
+  </tr>
+  <tr>
+    <td>free_spectate<span class="cheat-deterrent">*</span></td>
+    <td nowrap="nowrap">void</td>
+    <td>Alias of toggle_spectate.</td>
+  </tr>
+</table>
+<h2><a id="debug">Debugging</a></h2>
+<h3>Cvars</h3>
+  <table border="0" cellspacing="0" cellpadding="0">
+    <col width="1%" />
+    <col width="1%" />
+    <col width="1%" />
+    <tr>
+      <th scope="col">Cvar</th>
+      <th scope="col">Type</th>
+      <th scope="col">Default</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tr>
+      <td>umsg_debug</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Display a listing of umsgs on the HUD.</td>
+    </tr>
+    <tr>
+      <td>umsg_debug_peek_wire</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Peeks into wire_umsg umsgs to display their targeted entity. The umsg will not get correctly passed on to the respective Wire component if this setting is enabled.</td>
+    </tr>
+    <tr>
+      <td>umsg_debug_peek_titan</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Peeks into x umsgs (Titan).</td>
+    </tr>
+  </table>
+<h2><a id="stranded">Stranded Game Mode</a></h2>
+<p>SaitoHUD has the following functions for the <em>Stranded</em> game mode:</p>
+<ul>
+  <li>Replacement of the resource drawing code with a routine that also colors the name of resources appropriate colors (i.e. stone is a grey-ish color).</li>
+  <li>A very useful context-sensitive gesture menu.</li>
+  </ul>
+<h3>Cvars</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+  <col width="1%" />
+  <col width="1%" />
+  <col width="1%" />
+  <tr>
+    <th scope="col">Cvar</th>
+    <th scope="col">Type</th>
+    <th scope="col">Default</th>
+    <th scope="col">Description</th>
+  </tr>
+  <tr>
+    <td>stranded_res_seeable</td>
+    <td>bool</td>
+    <td>1</td>
+    <td>Only draw the names of resources if a trace originating from your eye and ending at the resource does not collide with any other entity. This is how the Stranded game mode handles resource display.</td>
+  </tr>
+  <tr>
+    <td>stranded_res_distance</td>
+    <td>float</td>
+    <td>500</td>
+    <td>The maximum distance away a resource can be for its resource name will be displayed.</td>
+  </tr>
+</table>
+<h2><a id="sandbox">Sandbox Game Mode</a></h2>
+<p>For sandbox games, there is a customizable gesture menu.</p>
+<h3><a id="sandbox-customize-menu">Customizing the Gesture Menu</a></h3>
+<p>There is a default sandbox list gesture menu that contains some common tools, but if you wish to customize this, create a CSV file at <strong>data/saitohud/sandbox/menu.txt</strong> (in your data/ folder) and make a list of the tools that you wish to have on the menu. The first column is the text that will be shown, while the second column is the console command to run.</p>
+<p>The following is a sample from the default menu.txt file:</p>
+<pre>Title,Command
+Easy Precision Tool,tool_easy_precision
+Weld Tool,tool_weld
+Remover Tool,tool_remover
+No Collide Tool,tool_nocollide
+Adv. Duplicator Tool,tool_adv_duplicator
+Expression 2 Tool,tool_wire_expression2
+Wire Debugger Tool,tool_wire_debugger
+Improved Wire Tool,tool_wire_improved</pre>
+<p>You can add submenus by creating new text files in the same folder as menu.txt, with the prefix "menu_"<br />
+You need to add an entry to an existing menu to switch to the submenu, see the example below for going back to the main menu. For the action just type in the filename of the submenu(with the .txt extension)</p>
+<p>Here's an example menu_sayings.txt</p>
+<pre>Hello, say Hello!,
+Good Game, say Goog Game,
+Thanks, say Thank You,
+Lol,LOL!,
+Back,menu.txt</pre>
+
+<h2><a id="miscellaneous">Miscellaneous</a></h2>
+<h3>Cvars</h3>
+  <table border="0" cellspacing="0" cellpadding="0">
+    <col width="1%" />
+    <col width="1%" />
+    <col width="1%" />
+    <tr>
+      <th scope="col">Cvar</th>
+      <th scope="col">Type</th>
+      <th scope="col">Default</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tr>
+      <td>trace_aims<span class="cheat-deterrent">*</span></td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Enable the drawing of lines that trace the aims of players. The lines begin near the eyes of players and end at the surface that the line collides with. If a player is targetted, the color of the line will change.</td>
+    </tr>
+    <tr>
+      <td>super_flashlight_self</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Only create the dynamic light for the super flashlight at your own position.</td>
+    </tr>
+    <tr>
+      <td>saitohud_ignore_hooks</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Disables all hooks. Hooks are used to override handling of some SaitoHUD features. For example, there is a hook that allows a plugin to modify the color of the player bounding boxes.</td>
+    </tr>
+    <tr>
+      <td>saitohud_modules</td>
+      <td>string</td>
+      <td>""</td>
+      <td>List of additional modules to load, separated by commas.</td>
+    </tr>
+    <tr>
+      <td>saitohud_modules_pre</td>
+      <td>string</td>
+      <td>&quot;&quot;</td>
+      <td>List of additional modules to load before all other modules, separated by commas.</td>
+    </tr>
+    <tr>
+      <td>saitohud_profile</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>Display how long it takes each module to load.</td>
+    </tr>
+  </table>
+  <h3>Commands</h3>
+  <table border="0" cellpadding="0" cellspacing="0">
+    <col width="1%" />
+    <col width="1%" />
+    <tr>
+      <th scope="col">Cvar</th>
+      <th scope="col">Arguments</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tr>
+      <td>calculator</td>
+      <td>void</td>
+      <td>Opens the calculator.</td>
+    </tr>
+    <tr>
+      <td>toggle_hud</td>
+      <td>void</td>
+      <td>Toggles the display of the HUD.</td>
+    </tr>
+    <tr>
+      <td>toggle_concmd</td>
+      <td>string cmd</td>
+      <td>Ttoggle a command on and off (i.e. attack). Don't put + or - when giving the command name.</td>
+    </tr>
+    <tr>
+      <td>super_flashlight<span class="cheat-deterrent">*</span></td>
+      <td>void</td>
+      <td>Toggles a powerful flashlight that illuminates the area immediately around you and the area that you are looking at. This works by creating two dynamic lights, one at your location, and another at the location that your aim vector collides at.</td>
+    </tr>
+    <tr>
+      <td>super_flashlight_bright</td>
+      <td>void</td>
+      <td>Makes the super flashlight brighter.</td>
+    <tr>
+      <td>sound_browser</td>
+      <td>void</td>
+      <td>Opens a sound browser.</td>
+    </tr>
+    <tr>
+      <td>e2_extensions</td>
+      <td>void</td>
+      <td>Opens the E2 extensions window.</td>
+    </tr>
+    <tr>
+      <td>hook_manager</td>
+      <td>void</td>
+      <td>Opens the hook manager window.</td>
+    </tr>
+    <tr>
+      <td>saitohud_help</td>
+      <td nowrap="nowrap">void</td>
+      <td>Shows the SaitoHUD help window.</td>
+    </tr>
+    <tr>
+      <td>saitohud_reload</td>
+      <td nowrap="nowrap">void</td>
+      <td>Reloads SaitoHUD.</td>
+    </tr>
+  </table>
+  
+  <div id="footer">
+  	<span id="footer-id">$Id: docs.html 156 2010-06-18 22:35:16Z the.sk89q $</span>
+    &copy; sk89q, BoJaN.
+  </div>
+</div>
+</body>
+</html>

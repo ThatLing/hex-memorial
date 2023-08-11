@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+	"name"			"HeX's Scripts!"
+	"version"		"10"
+	"up_date"		"06.07.2012"
+	"author_name"		"-=[UH]=- General HeX"
+	"author_email"		"/id/MFSiNC"
+	"author_url"		"gmod.game-host.org 27015"
+	
+	"info"			"Antispam, Muke warning, Autoclicker, Download Filter, Spectate and more!"
+	
+	"override"		"0"
+}

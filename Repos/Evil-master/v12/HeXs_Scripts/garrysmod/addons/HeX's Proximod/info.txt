@@ -1,0 +1,20 @@
+"AddonInfo"
+{
+	"name"		"Proxi"
+	"version"	"1.0"
+	"up_date"	"9th September 2010"
+	"author_name"	"Hurricaaane"
+	"author_url"	"http://www.youtube.com/user/Hurricaaane"
+	
+	"info"		"Proximity sensor and information display."
+
+	//
+	// !!!!! This is important !!!!!
+	//
+	// If you are adding new stuff this should be 0
+	// If you're overriding stuff that already exists this should be 1
+	// Loadtimes will increase slightly with every addon you have with 
+	//  this set to 1 - so only set override if you really need to.
+
+	"override"	"0"
+}
