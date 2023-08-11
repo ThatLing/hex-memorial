@@ -1,0 +1,5 @@
+particles_manifest
+{
+	"file"		"particles/vman_explosion.pcf"
+	"file"		"particles/chappi_explosion.pcf"
+}

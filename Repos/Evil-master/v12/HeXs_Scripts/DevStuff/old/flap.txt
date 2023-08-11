@@ -1,0 +1,660 @@
+STEAM_0:0:49963094;Cheat:  isis
+STEAM_0:1:39052921;Cheat:  isis
+STEAM_0:1:43651259;Cheat:  neon
+STEAM_0:0:20973005;Cheat:  inkbot
+STEAM_0:0:18648599;Cheat:  inkbot
+STEAM_0:1:30602489;Cheat:  isis
+STEAM_0:0:10384960;Cheat:  g
+STEAM_0:0:22313374;Cheat:  int
+STEAM_0:1:2826106;Cheat:  int
+STEAM_0:0:29999073;Cheat:  monsterhack
+STEAM_0:1:40296742;Cheat:  lix
+STEAM_0:1:30714994;Cheat:  neon
+STEAM_0:1:24177661;Cheat:  Elebot
+STEAM_0:1:41886656;Cheat:  Elebot
+STEAM_0:0:20651275;Cheat:  Neon
+STEAM_0:1:24315562;Cheat:  Coma
+STEAM_0:0:19901992;Cheat:  Code Injection
+STEAM_0:0:38131040;Cheat:  Code Injection
+STEAM_0:1:33957251;Cheat:  Code Injection
+STEAM_0:1:28446368;Cheat:  Code Injection
+STEAM_0:0:36525933;Cheat:  Code Injection
+STEAM_0:0:38176760;Cheat:  Code Injection
+STEAM_0:0:5995530;Cheat:  Code Injection
+STEAM_0:0:29171828;Cheat:  Code Injection
+STEAM_0:1:14137101;Cheat:  Code Injection
+STEAM_0:1:17626391;Cheat:  Code Injection
+STEAM_0:0:13983114;Cheat:  Code Injection
+STEAM_0:0:12099804;Cheat:  Code Injection
+STEAM_0:1:13602538;Cheat:  Code Injection
+STEAM_0:0:43688624;Cheat:  Code Injection
+STEAM_0:0:26431054;Cheat:  Code Injection
+STEAM_0:1:25511182;Cheat:  Code Injection
+STEAM_0:1:21427056;Cheat:  Code Injection
+STEAM_0:1:19624868;Cheat:  Code Injection
+STEAM_0:0:12667741;Cheat:  Code Injection
+STEAM_0:0:18279666;Cheat:  Code Injection
+STEAM_0:1:38581282;Cheat:  Code Injection
+STEAM_0:1:40953131;Cheat:  Code Injection
+STEAM_0:1:37325264;Cheat:  Code Injection
+STEAM_0:1:48004946;Cheat:  Code Injection
+STEAM_0:0:17726148;Cheat:  Code Injection
+STEAM_0:0:42194705;Cheat:  Code Injection
+STEAM_0:0:19774979;Cheat:  Code Injection
+STEAM_0:0:38972880;Cheat:  Code Injection
+STEAM_0:1:23921311;Cheat:  Code Injection
+STEAM_0:1:32561559;Cheat:  Code Injection
+STEAM_0:1:39603922;Cheat:  Code Injection
+STEAM_0:0:17050506;Cheat:  Code Injection
+STEAM_0:1:21872927;Cheat:  Code Injection
+STEAM_0:0:18236678;Cheat:  Code Injection
+STEAM_0:0:13583020;Cheat:  Code Injection
+STEAM_0:0:40334407;Cheat:  Code Injection
+STEAM_0:0:46066;Cheat:  Code Injection
+STEAM_0:0:40916370;Cheat:  Code Injection
+STEAM_0:0:23516026;Cheat:  Code Injection
+STEAM_0:0:46298023;Cheat:  Code Injection
+STEAM_0:0:33968303;Cheat:  Code Injection
+STEAM_0:0:17367403;Cheat:  Code Injection
+STEAM_0:0:13196070;Cheat:  Code Injection
+STEAM_0:1:26220023;Cheat:  Code Injection
+STEAM_0:1:21056397;Cheat:  Code Injection
+STEAM_0:0:40735985;Cheat:  Code Injection
+STEAM_0:1:31191381;Cheat:  Code Injection
+STEAM_0:1:25675380;Cheat:  Code Injection
+STEAM_0:0:20928049;Cheat:  Code Injection
+STEAM_0:0:41146029;Cheat:  Code Injection
+STEAM_0:1:35038611;Cheat:  Code Injection
+STEAM_0:0:30883232;Cheat:  Code Injection
+STEAM_0:0:19617520;Cheat:  elebot
+STEAM_0:0:41307538;Cheat:  tame
+STEAM_0:1:11769924;Cheat:  coma
+STEAM_0:0:19338100;Cheat:  coma
+STEAM_0:0:21479539;Cheat:  coma
+STEAM_0:1:29640664;Cheat:  coma
+STEAM_0:1:34174066;Cheat:  coma
+STEAM_0:1:29812493;Cheat:  tame
+STEAM_0:0:49791119;Cheat:  hh
+STEAM_0:0:26325520;Cheat:  hh
+STEAM_0:0:21553359;Cheat:  elebot
+STEAM_0:0:40897007;Cheat:  isis
+STEAM_0:0:21760599;Cheat:  coma
+STEAM_0:1:15801351;Cheat:  coma
+STEAM_0:1:40407825;Cheat:  hh
+STEAM_0:0:6059942;Cheat:  Code Injection
+STEAM_0:1:29971267;Cheat:  Code Injection
+STEAM_0:1:30411341;Cheat:  Code Injection
+STEAM_0:1:37220271;Cheat:  Code Injection
+STEAM_0:1:37311111;Cheat:  Code Injection
+STEAM_0:0:49009808;Cheat:  Code Injection
+STEAM_0:0:21760599;Cheat:  Code Injection
+STEAM_0:1:18488836;Cheat:  Code Injection
+STEAM_0:1:30051971;Cheat:  Code Injection
+STEAM_0:0:27209687;Cheat:  Code Injection
+STEAM_0:0:42055458;Cheat:  Code Injection
+STEAM_0:1:29784969;Cheat:  Code Injection
+STEAM_0:1:47574863;Cheat:  Code Injection
+STEAM_0:1:12110199;Cheat:  Code Injection
+STEAM_0:0:32971824;Cheat:  Code Injection
+STEAM_0:1:45036640;Cheat:  Code Injection
+STEAM_0:0:13789991;Cheat:  Code Injection
+STEAM_0:1:47585786;Cheat:  Code Injection
+STEAM_0:1:31629013;Cheat:  Code Injection
+STEAM_0:0:24857790;Cheat:  Code Injection
+STEAM_0:0:20928928;Cheat:  Code Injection
+STEAM_0:1:38456959;Cheat:  Code Injection
+STEAM_0:0:27362367;Cheat:  Code Injection
+STEAM_0:1:20546481;Cheat:  Code Injection
+STEAM_0:1:32979564;Cheat:  Code Injection
+STEAM_0:1:32723575;Cheat:  Code Injection
+STEAM_0:1:20027677;Cheat:  Code Injection
+STEAM_0:1:22010666;Cheat:  Code Injection
+STEAM_0:0:10089448;Cheat:  Code Injection
+STEAM_0:0:25999084;Cheat:  Code Injection
+STEAM_0:0:23645529;Cheat:  Code Injection
+STEAM_0:0:26177708;Cheat:  Code Injection
+STEAM_0:1:15978572;Cheat:  Code Injection
+STEAM_0:1:30622959;Cheat:  Code Injection
+STEAM_0:0:10795659;Cheat:  Code Injection
+STEAM_0:0:8836134;Cheat:  Code Injection
+STEAM_0:1:27936486;Cheat:  Code Injection
+STEAM_0:0:20497785;Cheat:  Code Injection
+STEAM_0:0:25309195;Cheat:  Code Injection
+STEAM_0:0:47607534;Cheat:  Code Injection
+STEAM_0:0:45119049;Cheat:  Code Injection
+STEAM_0:1:31668419;Cheat:  Code Injection
+STEAM_0:0:30709335;Cheat:  Code Injection
+STEAM_0:0:43372066;Cheat:  lix
+STEAM_0:1:35738339;Cheat:  gbot,eradicate,gbot3
+STEAM_0:0:43680205;Cheat:  gbot
+STEAM_0:1:50032155;Cheat:  Code Injection
+STEAM_0:0:20409589;Cheat:  Code Injection
+STEAM_0:1:29374611;Cheat:  Code Injection
+STEAM_0:1:38654884;Cheat:  Code Injection
+STEAM_0:0:45159127;Cheat:  Code Injection
+STEAM_0:1:26052782;Cheat:  Code Injection
+STEAM_0:0:28545861;Cheat:  Code Injection
+STEAM_0:1:34051928;Cheat:  Code Injection
+STEAM_0:1:27014861;Cheat:  Code Injection
+STEAM_0:0:34483728;Cheat:  Code Injection
+STEAM_0:1:43940964;Cheat:  Code Injection
+STEAM_0:0:47444339;Cheat:  Code Injection
+STEAM_0:1:37991340;Cheat:  Code Injection
+STEAM_0:1:43891704;Cheat:  Code Injection
+STEAM_0:0:30499160;Cheat:  Code Injection
+STEAM_0:1:40131982;Cheat:  Code Injection
+STEAM_0:1:39036191;Cheat:  Code Injection
+STEAM_0:1:50012443;Cheat:  Code Injection
+STEAM_0:0:31955945;Cheat:  Code Injection
+STEAM_0:1:30569150;Cheat:  Code Injection
+STEAM_0:1:37950845;Cheat:  Code Injection
+STEAM_0:0:39157486;Cheat:  Code Injection
+STEAM_0:0:38704795;Cheat:  Code Injection
+STEAM_0:1:37984975;Cheat:  Code Injection
+STEAM_0:0:33575136;Cheat:  Code Injection
+STEAM_0:0:40146815;Cheat:  mfsp
+STEAM_0:1:17286464;Cheat:  coma
+STEAM_0:1:44511758;Cheat:  lix
+STEAM_0:0:34111703;Cheat:  lix
+STEAM_0:1:33659672;Cheat:  elebot
+STEAM_0:0:23552236;Cheat:  (cracked) sethhack v2
+STEAM_0:1:12018844;Cheat:  isis
+STEAM_0:1:44781337;Cheat:  speed.lua
+STEAM_0:1:1439351;Cheat:  herpes
+STEAM_0:0:24419439;Cheat:  isis
+STEAM_0:1:17508660;Cheat:  Code Injection
+STEAM_0:1:26736765;Cheat:  Code Injection
+STEAM_0:1:37602703;Cheat:  Code Injection
+STEAM_0:1:41918177;Cheat:  Code Injection
+STEAM_0:1:28533213;Cheat:  Code Injection
+STEAM_0:0:42305682;Cheat:  Code Injection
+STEAM_0:0:36940612;Cheat:  Code Injection
+STEAM_0:0:38469933;Cheat:  Code Injection
+STEAM_0:1:1426417;Cheat:  Code Injection
+STEAM_0:0:17652107;Cheat:  Code Injection
+STEAM_0:0:6428289;Cheat:  Code Injection
+STEAM_0:0:30939823;Cheat:  Code Injection
+STEAM_0:1:40749708;Cheat:  Code Injection
+STEAM_0:1:23629652;Cheat:  Code Injection
+STEAM_0:0:35205289;Cheat:  Code Injection
+STEAM_0:1:49076431;Cheat:  Code Injection
+STEAM_0:0:26311595;Cheat:  Code Injection
+STEAM_0:1:19159317;Cheat:  Code Injection
+STEAM_0:1:10417976;Cheat:  Code Injection
+STEAM_0:1:41611335;Cheat:  Code Injection
+STEAM_0:1:43969722;Cheat:  Code Injection
+STEAM_0:0:20220663;Cheat:  speedhack
+STEAM_0:0:39618012;Cheat:  Code Injection
+STEAM_0:0:22917225;Cheat:  Code Injection
+STEAM_0:0:8731533;Cheat:  Code Injection
+STEAM_0:1:36831604;Cheat:  Code Injection
+STEAM_0:0:45008543;Cheat:  Code Injection
+STEAM_0:0:24320781;Cheat:  Code Injection
+STEAM_0:0:26312585;Cheat:  Code Injection
+STEAM_0:0:43100738;Cheat:  Code Injection
+STEAM_0:0:12012182;Cheat:  Code Injection
+STEAM_0:1:48308696;Cheat:  Code Injection
+STEAM_0:1:31775427;Cheat:  Code Injection
+STEAM_0:1:13737877;Cheat:  Code Injection
+STEAM_0:1:11427632;Cheat:  Code Injection
+STEAM_0:1:29886937;Cheat:  Code Injection
+STEAM_0:0:19293437;Cheat:  Code Injection
+STEAM_0:1:19348310;Cheat:  Code Injection
+STEAM_0:1:26819163;Cheat:  Code Injection
+STEAM_0:1:17042971;Cheat:  Code Injection
+STEAM_0:0:32070437;Cheat:  faggot (poki)
+STEAM_0:1:33831311;Cheat:  Code Injection
+STEAM_0:1:18843517;Cheat:  Code Injection
+STEAM_0:0:11151054;Cheat:  Code Injection
+STEAM_0:0:25624107;Cheat:  Code Injection
+STEAM_0:1:30673177;Cheat:  Code Injection
+STEAM_0:0:14790879;Cheat:  Code Injection
+STEAM_0:1:13250571;Cheat:  Code Injection
+STEAM_0:1:28657939;Cheat:  Code Injection
+STEAM_0:1:34087705;Cheat:  Code Injection
+STEAM_0:1:21421892;Cheat:  Code Injection
+STEAM_0:0:29493653;Cheat:  Code Injection
+STEAM_0:1:38689930;Cheat:  Code Injection
+STEAM_0:1:17505658;Cheat:  Code Injection
+STEAM_0:1:37018013;Cheat:  Code Injection
+STEAM_0:1:38846072;Cheat:  Code Injection
+STEAM_0:1:8284163;Cheat:  Code Injection
+STEAM_0:1:14133131;Cheat:  Code Injection
+STEAM_0:1:32540524;Cheat:  Code Injection
+STEAM_0:0:32269281;Cheat:  Code Injection
+STEAM_0:1:19353043;Cheat:  Code Injection
+STEAM_0:0:44321488;Cheat:  Code Injection
+STEAM_0:0:1567954;Cheat:  Code Injection
+STEAM_0:1:33749817;Cheat:  Code Injection
+STEAM_0:1:33917884;Cheat:  Code Injection
+STEAM_0:0:19856818;Cheat:  Code Injection
+STEAM_0:0:5226387;Cheat:  speedhack
+STEAM_0:0:36006702;Cheat:  Code Injection
+STEAM_0:0:44098755;Cheat:  Code Injection
+STEAM_0:1:45424776;Cheat:  Code Injection
+STEAM_0:0:37641228;Cheat:  Code Injection
+STEAM_0:1:40152334;Cheat:  Code Injection
+STEAM_0:0:41799917;Cheat:  Code Injection
+STEAM_0:1:22010562;Cheat:  Code Injection
+STEAM_0:0:24822120;Cheat:  Code Injection
+STEAM_0:0:10713231;Cheat:  Code Injection
+STEAM_0:1:36131576;Cheat:  zbot
+STEAM_0:1:11650863;Cheat:  Coma
+STEAM_0:0:16319183;Cheat:  Code Injection
+STEAM_0:0:40161943;Cheat:  Code Injection
+STEAM_0:0:26053222;Cheat:  Code Injection
+STEAM_0:1:16230103;Cheat:  Code Injection
+STEAM_0:0:33891807;Cheat:  Code Injection
+STEAM_0:0:16350495;Cheat:  Code Injection
+STEAM_0:0:31925018;Cheat:  Code Injection
+STEAM_0:0:20703502;Cheat:  Code Injection
+STEAM_0:0:28307108;Cheat:  Code Injection
+STEAM_0:0:40143824;Cheat:  Code Injection
+STEAM_0:1:31811639;Cheat:  Code Injection
+STEAM_0:0:25160443;Cheat:  Code Injection
+STEAM_0:1:26118232;Cheat:  Code Injection
+STEAM_0:0:36232848;Cheat:  Code Injection
+STEAM_0:0:28307108;Cheat:  Code Injection
+STEAM_0:0:43159831;Cheat:  Code Injection
+STEAM_0:0:24199196;Cheat:  Code Injection
+STEAM_0:1:26188522;Cheat:  Code Injection
+STEAM_0:1:20280169;Cheat:  Code Injection
+STEAM_0:1:19839009;Cheat:  NeonHack
+STEAM_0:0:24213184;Cheat:  Code Injection
+STEAM_0:0:5682164;Cheat:  Code Injection
+STEAM_0:1:31052706;Cheat:  Code Injection
+STEAM_0:1:28810910;Cheat:  Code Injection
+STEAM_0:0:31219365;Cheat:  Code Injection
+STEAM_0:1:26604027;Cheat:  Code Injection
+STEAM_0:1:42802404;Cheat:  Code Injection
+STEAM_0:1:40335356;Cheat:  Code Injection
+STEAM_0:0:26692186;Cheat:  Code Injection
+STEAM_0:1:42297594;Cheat:  Code Injection
+STEAM_0:1:28282921;Cheat:  Code Injection
+STEAM_0:1:10309922;Cheat:  Code Injection
+STEAM_0:0:39101463;Cheat:  Code Injection
+STEAM_0:0:39690375;Cheat:  Code Injection
+STEAM_0:1:25657133;Cheat:  Code Injection
+STEAM_0:1:32024708;Cheat:  Code Injection
+STEAM_0:1:25657133;Cheat:  Code injection
+STEAM_0:1:22119869;Cheat:  Code injection
+STEAM_0:1:43221644;Cheat:  Code injection
+STEAM_0:1:43197919;Cheat:  Code injection
+STEAM_0:0:39163312;Cheat:  Code injection
+STEAM_0:0:5682164;Cheat:  Code injection
+STEAM_0:0:23750602;Cheat:  Code injection
+STEAM_0:1:10088463;Cheat:  Code injection
+STEAM_0:1:32835647;Cheat:  Code injection
+STEAM_0:0:31615557;Cheat:  Code injection
+STEAM_0:0:45523007;Cheat:  Code injection
+STEAM_0:0:29239364;Cheat:  Code injection
+STEAM_0:0:19038701;Cheat:  Code injection
+STEAM_0:1:21605065;Cheat:  Code injection
+STEAM_0:1:26344770;Cheat:  Code injection
+STEAM_0:1:38812224;Cheat:  Code injection
+STEAM_0:0:32982037;Cheat:  CubHack
+STEAM_0:0:28183970;Cheat:  Code injection
+STEAM_0:0:20743276;Cheat:  Code injection
+STEAM_0:1:421861172;Cheat:  Speedhack
+STEAM_0:1:30470607;Cheat:  Code injection
+STEAM_0:1:18704943;Cheat:  Code injection(unbanned)
+STEAM_0:0:30256551;Cheat:  Code injection
+STEAM_0:1:33289438;Cheat:  Code injection
+STEAM_0:1:17267267;Cheat:  Inkbot
+STEAM_0:0:33459537;Cheat:  rc/rf
+STEAM_0:0:7382018;Cheat:  Code injection
+STEAM_0:1:44810352;Cheat:  Code injection
+STEAM_0:1:26676964;Cheat:  Code injection
+STEAM_0:0:24988955;Cheat:  Code injection
+STEAM_0:0:14922341;Cheat:  Code injection
+STEAM_0:0:24974888;Cheat:  Code injection
+STEAM_0:0:36180396;Cheat:  Code injection
+STEAM_0:1:30107073;Cheat:  Code injection
+STEAM_0:0:43988463;Cheat:  Code injection
+STEAM_0:1:19831541;Cheat:  Code injection
+STEAM_0:1:37681134;Cheat:  CubHack
+STEAM_0:1:29226146;Cheat:  CubHack
+STEAM_0:1:44138147;Cheat:  Code injection
+STEAM_0:0:19318165;Cheat:  Code injection
+STEAM_0:0:30714265;Cheat:  Code injection
+STEAM_0:0:39187983;Cheat:  Code injection
+STEAM_0:0:36794289;Cheat:  Code injection
+STEAM_0:1:33708353;Cheat:  Code injection
+STEAM_0:1:12406388;Cheat:  Code injection
+STEAM_0:0:27068832;Cheat:  Code injection
+STEAM_0:1:36928215;Cheat:  Code injection
+STEAM_0:0:41802;Cheat:  Code injection
+STEAM_0:0:30735853;Cheat:  Code injection
+STEAM_0:0:10418914;Cheat:  Code injection
+STEAM_0:0:30354552;Cheat:  Code injection
+STEAM_0:0:30652639;Cheat:  Code injection
+STEAM_0:0:22534432;Cheat:  Code injection
+STEAM_0:1:30537140;Cheat:  Code injection
+STEAM_0:0:18691624;Cheat:  Code injection
+STEAM_0:0:18007424;Cheat:  Code injection
+STEAM_0:1:38572580;Cheat:  Code injection
+STEAM_0:1:42476821;Cheat:  Unknown
+STEAM_0:1:36927998;Cheat:  Unknown
+STEAM_0:1:25107044;Cheat:  Code injection
+STEAM_0:0:44107553;Cheat:  Code injection
+STEAM_0:0:20406383;Cheat:  Code injection
+STEAM_0:1:15789158;Cheat:  Code injection
+STEAM_0:1:22227066;Cheat:  Code injection
+STEAM_0:1:21555783;Cheat:  Code injection
+STEAM_0:0:37589369;Cheat:  Code injection
+STEAM_0:1:26057694;Cheat:  Code injection
+STEAM_0:1:25397734;Cheat:  Code injection
+STEAM_0:0:38604448;Cheat:  Code injection
+STEAM_0:0:15726896;Cheat:  Inkbot
+STEAM_0:0:19811962;Cheat:  Inkbot
+STEAM_0:0:38727026;Cheat:  Code injection
+STEAM_0:1:23359101;Cheat:  Code injection
+STEAM_0:0:36250162;Cheat:  Eradicate
+STEAM_0:1:20264839;Cheat:  Unknown
+STEAM_0:1:17629619;Cheat:  Isis
+STEAM_0:0:32752830;Cheat:  Code injection
+STEAM_0:1:38418099;Cheat:  Code injection
+STEAM_0:0:26745412;Cheat:  Code injection
+STEAM_0:0:29255499;Cheat:  Code injection
+STEAM_0:1:31854870;Cheat:  Code injection
+STEAM_0:1:22582910;Cheat:  Code injection
+STEAM_0:1:22689778;Cheat:  Code injection
+STEAM_0:0:24794531;Cheat:  Code injection
+STEAM_0:1:34494278;Cheat:  Code injection
+STEAM_0:0:42475015;Cheat:  Code injection
+STEAM_0:0:5305833;Cheat:  Pees
+STEAM_0:0:29466967;Cheat:  Code injection
+STEAM_0:0:20043407;Cheat:  Code injection
+STEAM_0:1:12965434;Cheat:  Code injection
+STEAM_0:1:8856483;Cheat:  Code injection
+STEAM_0:1:21779583;Cheat:  Code injection
+STEAM_0:0:32819171;Cheat:  Code injection
+STEAM_0:1:25272720;Cheat:  Code injection
+STEAM_0:1:41391523;Cheat:  Code injection
+STEAM_0:1:37173161;Cheat:  Code injection
+STEAM_0:1:15479136;Cheat:  Code injection
+STEAM_0:0:25900751;Cheat:  Code injection
+STEAM_0:0:23403890;Cheat:  Mydik
+STEAM_0:1:39945838;Cheat:  Code injection
+STEAM_0:1:13709339;Cheat:  LHM
+STEAM_0:1:25783134;Cheat:  Code injection
+STEAM_0:1:3992689;Cheat:  LHM
+STEAM_0:0:29437358;Cheat:  LHM
+STEAM_0:1:14239923;Cheat:  Inkbot
+STEAM_0:1:37543716;Cheat:  Inkbot
+STEAM_0:1:42084743;Cheat:  Gooberhack
+STEAM_0:0:26637072;Cheat:  Herpaflerp
+STEAM_0:0:19735449;Cheat:  Litebotgarry
+STEAM_0:0:19561634;Cheat:  Code injection
+STEAM_0:1:3176600;Cheat:  Mydik
+STEAM_0:0:25295126;Cheat:  Mydik
+STEAM_0:0:34092283;Cheat:  Gooberhack
+STEAM_0:1:13014240;Cheat:  Mydik
+STEAM_0:0:2255757;Cheat:  Mydik
+STEAM_0:1:6018850;Cheat:  Code injection
+STEAM_0:0:29248785;Cheat:  Code injection
+STEAM_0:0:33017392;Cheat:  Code injection
+STEAM_0:1:10569351;Cheat:  Eradicate
+STEAM_0:1:25636734;Cheat:  Code injection
+STEAM_0:0:39817531;Cheat:  Code injection
+STEAM_0:1:25484778;Cheat:  Code injection
+STEAM_0:0:31109435;Cheat:  Code injection
+STEAM_0:0:26707259;Cheat:  Code injection
+STEAM_0:0:33752125;Cheat:  Code injection
+STEAM_0:1:23946737;Cheat:  Code injection
+STEAM_0:0:41087968;Cheat:  Code injection
+STEAM_0:1:28372989;Cheat:  Code injection
+STEAM_0:1:20513516;Cheat:  Code injection
+STEAM_0:0:13498644;Cheat:  Code injection
+STEAM_0:1:32073049;Cheat:  Code injection
+STEAM_0:0:17104852;Cheat:  Code injection
+STEAM_0:1:11726504;Cheat:  Code injection
+STEAM_0:0:19622107;Cheat:  Code injection
+STEAM_0:1:1816051;Cheat:  Code injection
+STEAM_0:1:15292404;Cheat:  Code injection
+STEAM_0:0:18167133;Cheat:  Code injection
+STEAM_0:1:6183216;Cheat:  Code injection
+STEAM_0:1:10908429;Cheat:  Code injection
+STEAM_0:1:6076942;Cheat:  Code injection
+STEAM_0:0:41331055;Cheat:  Code injection
+STEAM_0:0:41745347;Cheat:  Code injection
+STEAM_0:1:28757742;Cheat:  Code injection
+STEAM_0:1:31713955;Cheat:  Code injection
+STEAM_0:1:24595045;Cheat:  Code injection
+STEAM_0:0:11481020;Cheat:  Code injection
+STEAM_0:1:41274325;Cheat:  Code injection
+STEAM_0:1:18214819;Cheat:  Code injection
+STEAM_0:0:15644324;Cheat:  Code injection
+STEAM_0:0:41331055;Cheat:  Code injection
+STEAM_0:0:23888757;Cheat:  Code injection
+STEAM_0:1:15922559;Cheat:  Code injection
+STEAM_0:0:24963345;Cheat:  Code injection
+STEAM_0:1:20237730;Cheat:  Code injection
+STEAM_0:1:40856910;Cheat:  Code injection
+STEAM_0:1:14220841;Cheat:  Code injection
+STEAM_0:1:15575003;Cheat:  Code injection
+STEAM_0:1:23361066;Cheat:  Code injection
+STEAM_0:1:32234981;Cheat:  Code injection
+STEAM_0:1:36017201;Cheat:  Code injection
+STEAM_0:0:21044008;Cheat:  Code injection
+STEAM_0:0:26526813;Cheat:  Code injection
+STEAM_0:0:22349391;Cheat:  Code injection
+STEAM_0:0:30874880;Cheat:  Code injection
+STEAM_0:0:37814204;Cheat:  Code injection
+STEAM_0:1:15712642;Cheat:  Code injection
+STEAM_0:1:19916550;Cheat:  Code injection
+STEAM_0:0:3228595;Cheat:  Code injection
+STEAM_0:1:32324604;Cheat:  Code injection
+STEAM_0:1:17424205;Cheat:  Code injection
+STEAM_0:0:20102730;Cheat:  Code injection
+STEAM_0:1:17790269;Cheat:  Code injection
+STEAM_0:0:34143111;Cheat:  Code injection
+STEAM_0:0:18838483;Cheat:  Code injection
+STEAM_0:1:14496711;Cheat:  Injectshunt
+STEAM_0:0:11799654;Cheat:  SethHack(edit)
+STEAM_0:1:15029381;Cheat:  Whip it good
+STEAM_0:0:5979318;Cheat:  Whip it good
+STEAM_0:1:30594971;Cheat:  Code injection
+STEAM_0:1:11641057;Cheat:  Code injection
+STEAM_0:1:18460701;Cheat:  Sethhack
+STEAM_0:0:26159643;Cheat:  Inkbot
+STEAM_0:0:14073219;Cheat:  Convar forcing
+STEAM_0:0:35192837;Cheat:  Sethhack
+STEAM_0:1:25757548;Cheat:  Eradicate
+STEAM_0:1:10897283;Cheat:  Sethhack
+STEAM_0:1:17041504;Cheat:  Convar forcing
+STEAM_0:1:18460921;Cheat:  Sethhack
+STEAM_0:0:19254119;Cheat:  Sethhack
+STEAM_0:0:32655084;Cheat:  Sethhack
+STEAM_0:0:12190592;Cheat:  Code injection
+STEAM_0:0:17605909;Cheat:  Sethhack
+STEAM_0:0:14690776;Cheat:  Sethhack
+STEAM_0:0:28871977;Cheat:  Speedhack
+STEAM_0:0:2294681;Cheat:  Convar forcing
+STEAM_0:1:6068936;Cheat:  Code injection
+STEAM_0:1:37836545;Cheat:  Hermes
+STEAM_0:1:6427907;Cheat:  Aspergers
+STEAM_0:1:12209165;Cheat:  Hermes
+STEAM_0:0:13388289;Cheat:  Eradicate
+STEAM_0:1:18811312;Cheat:  SySHack
+STEAM_0:1:16190578;Cheat:  Sethhack
+STEAM_0:0:31831863;Cheat:  Sethhack
+STEAM_0:1:37548052;Cheat:  Inkbot
+STEAM_0:0:31831863;Cheat:  Sethhack(leaked)
+STEAM_0:0:18816061;Cheat:  Sethhack(leaked)
+STEAM_0:0:15446164;Cheat:  Hermes
+STEAM_0:1:20789337;Cheat:  Hermes
+STEAM_0:1:20789337;Cheat:  Hermes
+STEAM_0:0:19938980;Cheat:  Sethhack
+STEAM_0:1:21918773;Cheat:  Sethhack
+STEAM_0:0:28903624;Cheat:  Sethhack
+STEAM_0:1:22018370;Cheat:  Sethhack
+STEAM_0:0:31866003;Cheat:  Sethhack
+STEAM_0:0:38362287;Cheat:  Sethhack
+STEAM_0:1:12808689;Cheat:  Sethhack
+STEAM_0:1:32988394;Cheat:  Sethhack
+STEAM_0:1:25879423;Cheat:  Sethhack
+STEAM_0:1:37118627;Cheat:  Sethhack
+STEAM_0:1:19732775;Cheat:  Ph0ne
+STEAM_0:0:14530371;Cheat:  Code injection(SQLite)
+STEAM_0:0:17003802;Cheat:  Code injection(SQLite)
+STEAM_0:0:29163952;Cheat:  Code injection(SQLite)
+STEAM_0:0:5325124;Cheat:  Code injection(SQLite)
+STEAM_0:1:29853070;Cheat:  Code injection(SQLite)
+STEAM_0:0:22770384;Cheat:  Sethhack
+STEAM_0:1:7334549;Cheat:  Code injection(SQLite)
+STEAM_0:1:20026079;Cheat:  Odius
+STEAM_0:1:27526575;Cheat:  Odius
+STEAM_0:1:13196020;Cheat:  Eradicate
+STEAM_0:1:33763522;Cheat:  Sethhack
+STEAM_0:1:24435842;Cheat:  Sethhack
+STEAM_0:1:37118627;Cheat:  Sethhack
+STEAM_0:1:24435842;Cheat:  Sethhack
+STEAM_0:0:29163952;Cheat:  Code injection
+STEAM_0:0:22748305;Cheat:  Baconbot
+STEAM_0:0:20327715;Cheat:  Sethhack
+STEAM_0:0:19586627;Cheat:  Convar forcing
+STEAM_0:1:29478760;Cheat:  Convar forcing
+STEAM_0:1:25369713;Cheat:  Convar forcing
+STEAM_0:0:22914080;Cheat:  Convar forcing
+STEAM_0:1:21523239;Cheat:  Baconbot
+STEAM_0:0:31767822;Cheat:  Baconbot
+STEAM_0:1:16421568;Cheat:  Convar forcing
+STEAM_0:1:19748919;Cheat:  Baconbot
+STEAM_0:1:17749887;Cheat:  Baconbot
+STEAM_0:1:16212076;Cheat:  Baconbot
+STEAM_0:0:33944948;Cheat:  Baconbot
+STEAM_0:1:1198860;Cheat:  Baconbot
+STEAM_0:0:1194255;Cheat:  Baconbot
+STEAM_0:1:18361092;Cheat:  Baconbot
+STEAM_0:0:20088064;Cheat:  Baconbot
+STEAM_0:0:3597677;Cheat:  Speedhack
+STEAM_0:1:25915952;Cheat:  Sethhack
+STEAM_0:1:24309692;Cheat:  Sethhack
+STEAM_0:0:19878867;Cheat:  Sethhack
+STEAM_0:0:6669318;Cheat:  Sethhack
+STEAM_0:1:22240086;Cheat:  Sethhack
+STEAM_0:1:22293020;Cheat:  Sethhack
+STEAM_0:1:25315900;Cheat:  Sethhack
+STEAM_0:1:15465879;Cheat:  Sethhack
+STEAM_0:1:27791499;Cheat:  Sethhack
+STEAM_0:1:21748050;Cheat:  Sethhack
+STEAM_0:1:17465034;Cheat:  Sethhack
+STEAM_0:1:14563562;Cheat:  Sethhack
+STEAM_0:0:18515312;Cheat:  Sethhack
+STEAM_0:0:21373726;Cheat:  Sethhack
+STEAM_0:1:23674993;Cheat:  Sethhack
+STEAM_0:0:14100771;Cheat:  Sethhack
+STEAM_0:0:25331167;Cheat:  Sethhack
+STEAM_0:1:20811691;Cheat:  Sethhack
+STEAM_0:1:8343226;Cheat:  Sethhack
+STEAM_0:0:17141267;Cheat:  Sethhack
+STEAM_0:1:2381903;Cheat:  Sethhack
+STEAM_0:0:20314230;Cheat:  Sethhack
+STEAM_0:1:26262689;Cheat:  Sethhack
+STEAM_0:0:29351959;Cheat:  Sethhack
+STEAM_0:1:16373250;Cheat:  Sethhack
+STEAM_0:1:5247800;Cheat:  Sethhack
+STEAM_0:1:17906432;Cheat:  Sethhack
+STEAM_0:1:30433726;Cheat:  Sethhack
+STEAM_0:0:16764526;Cheat:  Baconbot
+STEAM_0:1:14928653;Cheat:  Baconbot
+STEAM_0:0:11680407;Cheat:  Baconbot
+STEAM_0:1:18011105;Cheat:  Baconbot
+STEAM_0:1:30046997;Cheat:  Baconbot
+STEAM_0:0:15521306;Cheat:  Convar forcing
+STEAM_0:0:18952303;Cheat:  Baconbot
+STEAM_0:0:30626912;Cheat:  Baconbot
+STEAM_0:1:22597435;Cheat:  Baconbot
+STEAM_0:0:14891104;Cheat:  Convar forcing
+STEAM_0:0:17574951;Cheat:  Baconbot
+STEAM_0:1:34176202;Cheat:  Baconbot
+STEAM_0:1:9750737;Cheat:  Convar forcing
+STEAM_0:0:19321794;Cheat:  Convar forcing
+STEAM_0:0:16018224;Cheat:  Convar forcing
+STEAM_0:0:14073219;Cheat:  Baconbot
+STEAM_0:1:30764583;Cheat:  Baconbot
+STEAM_0:0:22247737;Cheat:  Baconbot
+STEAM_0:0:19648713;Cheat:  Baconbot
+STEAM_0:0:19248793;Cheat:  Baconbot
+STEAM_0:1:13100739;Cheat:  Baconbot
+STEAM_0:1:13908513;Cheat:  Baconbot
+STEAM_0:1:15710428;Cheat:  Unknown
+STEAM_0:1:22111898;Cheat:  Convar forcing
+STEAM_0:1:15404351;Cheat:  Baconbot
+STEAM_0:1:19957547;Cheat:  Baconbot
+STEAM_0:1:15404351;Cheat:  Baconbot
+STEAM_0:0:21491851;Cheat:  Unknown
+STEAM_0:0:29046889;Cheat:  Unknown
+STEAM_0:0:3592017;Cheat:  Unknown
+STEAM_0:0:18146611;Cheat:  Unknown
+STEAM_0:0:19767060;Cheat:  Unknown
+STEAM_0:0:5100034;Cheat:  Unknown
+STEAM_0:0:24859251;Cheat:  Unknown
+STEAM_0:0:24318831;Cheat:  Unknown
+STEAM_0:0:21513525;Cheat:  Baconbot
+STEAM_0:0:3592017;Cheat:  Baconbot
+STEAM_0:0:29790222;Cheat:  Baconbot
+STEAM_0:1:18227696;Cheat:  Baconbot
+STEAM_0:1:30286410;Cheat:  Baconbot
+STEAM_0:1:22038220;Cheat:  Baconbot
+STEAM_0:1:33488877;Cheat:  Baconbot
+STEAM_0:0:16042279;Cheat:  Baconbot
+STEAM_0:1:19354830;Cheat:  Baconbot
+STEAM_0:1:20810532;Cheat:  Baconbot
+STEAM_0:0:19531733;Cheat:  Baconbot
+STEAM_0:0:33443787;Cheat:  Baconbot
+STEAM_0:1:9011787;Cheat:  Baconbot
+STEAM_0:1:22111898;Cheat:  Baconbot
+STEAM_0:1:12040384;Cheat:  Unknown
+STEAM_0:0:8345987;Cheat:  Unknown
+STEAM_0:0:19490976;Cheat:  Unknown
+STEAM_0:0:3749847;Cheat:  Unknown
+STEAM_0:1:27042639;Cheat:  Unknown
+STEAM_0:0:18511864;Cheat:  Unknown
+STEAM_0:1:29771895;Cheat:  Unknown
+STEAM_0:1:29535476;Cheat:  Unknown
+STEAM_0:1:17568188;Cheat:  Unknown
+STEAM_0:1:17908541;Cheat:  Unknown
+STEAM_0:0:18287027;Cheat:  Unknown
+STEAM_0:1:15476329;Cheat:  Unknown
+STEAM_0:1:29502701;Cheat:  Unknown
+STEAM_0:0:15500261;Cheat:  Unknown
+STEAM_0:0:16267538;Cheat:  Unknown
+STEAM_0:0:20479184;Cheat:  Unknown
+STEAM_0:0:26269678;Cheat:  Unknown
+STEAM_0:1:18617255;Cheat:  Unknown
+STEAM_0:0:27332827;Cheat:  Unknown
+STEAM_0:0:25559717;Cheat:  Unknown
+STEAM_0:1:29142644;Cheat:  Unknown
+STEAM_0:1:21756969;Cheat:  Unknown
+STEAM_0:1:19650313;Cheat:  Unknown
+STEAM_0:1:21756969;Cheat:  Unknown
+STEAM_0:1:15231011;Cheat:  Unknown
+STEAM_0:1:15979882;Cheat:  Unknown
+STEAM_0:1:5247800;Cheat:  Unknown
+STEAM_0:0:29192036;Cheat:  Unknown
+STEAM_0:0:31585345;Cheat:  Unknown
+STEAM_0:0:16330620;Cheat:  Unknown
+STEAM_0:1:16485732;Cheat:  Unknown
+STEAM_0:1:22482699;Cheat:  Unknown
+STEAM_0:0:20854764;Cheat:  Unknown
+STEAM_0:1:30710525;Cheat:  Unknown
+STEAM_0:0:5550966;Cheat:  Unknown
+STEAM_0:0:25470945;Cheat:  Unknown
+STEAM_0:0:26895317;Cheat:  Unknown
+STEAM_0:0:11431754;Cheat:  Unknown
+STEAM_0:0:28656241;Cheat:  Unknown
+STEAM_0:0:10131725;Cheat:  Unknown
+STEAM_0:0:19807101;Cheat:  Unknown
+STEAM_0:0:26165399;Cheat:  Unknown
+STEAM_0:1:18222074;Cheat:  Unknown
+STEAM_0:1:18307252;Cheat:  Unknown
+STEAM_0:0:22284069;Cheat:  Unknown
+STEAM_0:0:17600393;Cheat:  Unknown
+STEAM_0:0:8615861;Cheat:  Unknown
+STEAM_0:0:11801739;Cheat:  Unknown
+STEAM_0:1:22111898;Cheat:  Baconbot
+STEAM_0:0:16499611;Cheat:  Baconbot
+STEAM_0:0:9643377 ;Cheat:  Speedhack
+STEAM_0:0:38808302;Cheat:  Unknown

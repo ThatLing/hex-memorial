@@ -1,0 +1,15 @@
+"XRay"
+{
+	"dhinline_col_base_g"		"227"
+	"dhinline_col_base_a"		"255"
+	"dhinline_col_back_b"		"61"
+	"dhinline_col_back_a"		"201"
+	"dhinline_col_base_b"		"232"
+	"dhinline_ui_drawglow"		"1"
+	"dhinline_col_back_r"		"7"
+	"dhinline_col_base_r"		"215"
+	"dhinline_ui_spacing"		"1"
+	"dhinline_ui_blendfonts"		"1"
+	"dhinline_ui_dynamicbackground"		"1"
+	"dhinline_col_back_g"		"52"
+}

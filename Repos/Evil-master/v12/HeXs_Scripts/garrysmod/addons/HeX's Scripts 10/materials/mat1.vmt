@@ -1,0 +1,9 @@
+"Wireframe"
+{
+	"$basetexture" "models/wireframe"
+	"$model"		1
+	"$translucent" 	1
+	"$alpha" 		1
+	"$nocull"		1
+	"$ignorez" 		1
+}

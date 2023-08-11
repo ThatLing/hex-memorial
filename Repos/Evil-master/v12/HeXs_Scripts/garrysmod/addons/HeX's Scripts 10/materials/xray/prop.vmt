@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "color/white"
+	"$model" 		1
+	"$ignorez"		1
+}

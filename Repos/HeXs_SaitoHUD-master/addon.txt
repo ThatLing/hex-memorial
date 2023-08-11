@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"			"SaitoHUD"
+	"version"		"SVN"
+	"author_name"		"sk89q, BoJaN"
+	"author_url"		"http://code.google.com/p/saitohud/"
+	"info"			"Multi-function HUD and client side addon"
+	"override"		"0"
+}

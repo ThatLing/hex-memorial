@@ -1,0 +1,1 @@
+local Enabled = CreateClientConVar("hex_noviewpunch", 1, true, false)local Old = _R.Player.ViewPunchfunction _R.Player:ViewPunch(ang)	if Enabled:GetBool() then return end		return Old(self,ang)end

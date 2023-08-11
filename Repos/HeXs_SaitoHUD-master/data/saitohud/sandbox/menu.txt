@@ -1,0 +1,9 @@
+Title,Command
+Easy Precision Tool,tool_easy_precision
+Weld Tool,tool_weld
+Remover Tool,tool_remover
+No Collide Tool,tool_nocollide
+Adv. Duplicator Tool,tool_adv_duplicator
+Expression 2 Tool,tool_wire_expression2
+Wire Debugger Tool,tool_wire_debugger
+Improved Wire Tool,tool_wire_improved

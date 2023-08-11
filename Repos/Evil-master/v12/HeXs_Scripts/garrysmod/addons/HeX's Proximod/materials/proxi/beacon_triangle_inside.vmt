@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"_size" "1.0f"
+	"_color" "[1 1 1 1]"
+	"_roll"	"0.0f"
+	"$baseTexture" "proxi/beacon_triangle_inside"
+	"$ignorez" 1
+	"$nolod" "1"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}
